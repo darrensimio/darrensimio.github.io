@@ -4,21 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mundana Free Jekyll Theme | Darren Sim</title>
+    <title>About Darren Sim | Darren Sim</title>
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Mundana Free Jekyll Theme | Darren Sim</title>
+<title>About Darren Sim | Darren Sim</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Mundana Free Jekyll Theme" />
+<meta property="og:title" content="About Darren Sim" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A great Jekyll theme developed by Sal @wowthemesnet." />
-<meta property="og:description" content="A great Jekyll theme developed by Sal @wowthemesnet." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="Tech Lead, Developer, Speaker &amp; Author in New Zealand" />
+<meta property="og:description" content="Tech Lead, Developer, Speaker &amp; Author in New Zealand" />
+<link rel="canonical" href="http://localhost:4000/about" />
+<meta property="og:url" content="http://localhost:4000/about" />
 <meta property="og:site_name" content="Darren Sim" />
-<link rel="next" href="http://localhost:4000/page2" />
 <script type="application/ld+json">
-{"name":"Darren Sim","description":"A great Jekyll theme developed by Sal @wowthemesnet.","@type":"WebSite","url":"http://localhost:4000/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"headline":"Mundana Free Jekyll Theme","@context":"http://schema.org"}</script>
+{"description":"Tech Lead, Developer, Speaker &amp; Author in New Zealand","@type":"WebPage","url":"http://localhost:4000/about","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"headline":"About Darren Sim","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -47,7 +46,7 @@
 
 </head>
 
-<body class=" homefirstpage ">
+<body class="">
 
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -102,27 +101,27 @@ var documents = [{
     "id": 2,
     "url": "http://localhost:4000/author-sal.html",
     "title": "Sal",
-    "body": "                        Sal Follow:         https://darrensim. io         Documenting my learning journey as a technologist &amp; people leader.                                   Posts by Sal:                   		Welcome to Jekyll!	: 		  You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common wa. . . 	 			In 				Jekyll, 								Feb 04, 2019						            		The first mass-produced book to deviate from a rectilinear format	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				tutorial, 								Feb 02, 2019						            		Education must also train one for quick, resolute and effective thinking. 	: 		  There are lots of powerful things you can do with the Markdown editor	 			In 				Jekyll, 				tutorial, 								Feb 01, 2019						            		Accumulated experience of social living	: 		  The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 	 			In 				Jekyll, 				tutorial, 								Jan 30, 2019						            		About Bundler	: 		  gem install bundler installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:	 			In 				Jekyll, 								Jan 29, 2019						            		Tree of Codes	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				Jekyll, 				tutorial, 								Jan 27, 2019						            		Red Riding Hood	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				Jekyll, 				tutorial, 								Jan 26, 2019						            		Press and education	: 		  Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, i. . . 	 			In 				Jekyll, 				tutorial, 								Jan 25, 2019						            		Powerful things you can do with the Markdown editor	: 		  There are lots of powerful things you can do with the Markdown editor	 			In 				Jekyll, 				tutorial, 								Jan 24, 2019						            		Never stopped worrying or loving the bomb	: 		  I’ve been through fire and water, I tell you! From my earliest pebblehood the wildest things you could imagine have been happening to this world of ours, and I have been right in the . . . 	 			In 				Jekyll, 								Jan 22, 2019						            		Is Intelligence Enough	: 		  Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become. . . 	 			In 				Jekyll, 				tutorial, 								Jan 21, 2019						            		Quick Start Guide	: 		  If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:	 			In 				Jekyll, 				tutorial, 								Jan 20, 2019						        "
+    "body": "                        {{page. title}} Follow:         {{ site. authors. sal. site }}         {{ site. authors. sal. bio }}                                   Posts by {{page. title}}:       {% assign posts = site. posts | where: author , sal  %}      {% for post in posts %}      {% include main-loop-card. html %}      {% endfor %}  "
     }, {
     "id": 3,
     "url": "http://localhost:4000/authors-list.html",
     "title": "Authors",
-    "body": "Authors:                                             Darren Sim :       (View Posts)      Documenting my learning journey as a technologist &amp; people leader.                           &nbsp;       &nbsp;                                      "
+    "body": "{{page. title}}:     {% for author in site. authors %}                                         {{ author[1]. name }} :       (View Posts)      {{ author[1]. bio }}                          &nbsp;       &nbsp;                                    {% endfor %}  "
     }, {
     "id": 4,
     "url": "http://localhost:4000/categories.html",
     "title": "Categories",
-    "body": "          Categories               Jekyll:                                  		Welcome to Jekyll!	: 		  You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common wa. . . 	 			In 				Jekyll, 								Feb 04, 2019						                                 		Powerful things you can do with the Markdown editor	: 		  There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about t. . . 	 			In 				Jekyll, 				tutorial, 								Feb 03, 2019						                                 		Education must also train one for quick, resolute and effective thinking. 	: 		  There are lots of powerful things you can do with the Markdown editor	 			In 				Jekyll, 				tutorial, 								Feb 01, 2019						                                 		Accumulated experience of social living	: 		  The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 	 			In 				Jekyll, 				tutorial, 								Jan 30, 2019						                                 		About Bundler	: 		  gem install bundler installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:	 			In 				Jekyll, 								Jan 29, 2019						                                 		We all wait for summer	: 		  This is changed. As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Mos. . . 	 			In 				Jekyll, 				tutorial, 								Jan 28, 2019						                                 		Tree of Codes	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				Jekyll, 				tutorial, 								Jan 27, 2019						                                 		Red Riding Hood	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				Jekyll, 				tutorial, 								Jan 26, 2019						                                 		Press and education	: 		  Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, i. . . 	 			In 				Jekyll, 				tutorial, 								Jan 25, 2019						                                 		Powerful things you can do with the Markdown editor	: 		  There are lots of powerful things you can do with the Markdown editor	 			In 				Jekyll, 				tutorial, 								Jan 24, 2019						                                 		Options for creating a new site with Jekyll	: 		  jekyll new &lt;PATH&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called myblog. Here are. . . 	 			In 				Jekyll, 				tutorial, 								Jan 23, 2019						                                 		Never stopped worrying or loving the bomb	: 		  I’ve been through fire and water, I tell you! From my earliest pebblehood the wildest things you could imagine have been happening to this world of ours, and I have been right in the . . . 	 			In 				Jekyll, 								Jan 22, 2019						                                 		Is Intelligence Enough	: 		  Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become. . . 	 			In 				Jekyll, 				tutorial, 								Jan 21, 2019						                                 		Quick Start Guide	: 		  If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:	 			In 				Jekyll, 				tutorial, 								Jan 20, 2019						                                 		Markdown Example	: 		  You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common wa. . . 	 			In 				Jekyll, 				tutorial, 								Jan 19, 2019						                                 		What is Jekyll	: 		  No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML &amp; CSS go in. Static sites come out ready for deployment. Permalinks, c. . . 	 			In 				Jekyll, 				tutorial, 								Jan 18, 2019						                                 		Could we reinvent the charm of old cities	: 		  Bucharest’s history alternated periods of development and decline from the early settlements in antiquity until its consolidation as the national capital of Romania late in the 19th c. . . 	 			In 				Jekyll, 				tutorial, 								Jan 18, 2019						                              tutorial:                                  		Powerful things you can do with the Markdown editor	: 		  There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about t. . . 	 			In 				Jekyll, 				tutorial, 								Feb 03, 2019						                                 		The first mass-produced book to deviate from a rectilinear format	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				tutorial, 								Feb 02, 2019						                                 		Education must also train one for quick, resolute and effective thinking. 	: 		  There are lots of powerful things you can do with the Markdown editor	 			In 				Jekyll, 				tutorial, 								Feb 01, 2019						                                 		Accumulated experience of social living	: 		  The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 	 			In 				Jekyll, 				tutorial, 								Jan 30, 2019						                                 		We all wait for summer	: 		  This is changed. As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Mos. . . 	 			In 				Jekyll, 				tutorial, 								Jan 28, 2019						                                 		Tree of Codes	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				Jekyll, 				tutorial, 								Jan 27, 2019						                                 		Red Riding Hood	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				Jekyll, 				tutorial, 								Jan 26, 2019						                                 		Press and education	: 		  Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, i. . . 	 			In 				Jekyll, 				tutorial, 								Jan 25, 2019						                                 		Powerful things you can do with the Markdown editor	: 		  There are lots of powerful things you can do with the Markdown editor	 			In 				Jekyll, 				tutorial, 								Jan 24, 2019						                                 		Options for creating a new site with Jekyll	: 		  jekyll new &lt;PATH&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called myblog. Here are. . . 	 			In 				Jekyll, 				tutorial, 								Jan 23, 2019						                                 		Is Intelligence Enough	: 		  Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become. . . 	 			In 				Jekyll, 				tutorial, 								Jan 21, 2019						                                 		Quick Start Guide	: 		  If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:	 			In 				Jekyll, 				tutorial, 								Jan 20, 2019						                                 		Markdown Example	: 		  You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common wa. . . 	 			In 				Jekyll, 				tutorial, 								Jan 19, 2019						                                 		What is Jekyll	: 		  No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML &amp; CSS go in. Static sites come out ready for deployment. Permalinks, c. . . 	 			In 				Jekyll, 				tutorial, 								Jan 18, 2019						                                 		Could we reinvent the charm of old cities	: 		  Bucharest’s history alternated periods of development and decline from the early settlements in antiquity until its consolidation as the national capital of Romania late in the 19th c. . . 	 			In 				Jekyll, 				tutorial, 								Jan 18, 2019						                                             Featured:    				                                          The first mass-produced book to deviate from a rectilinear format                          In                     tutorial,                                                                                           We all wait for summer                          In                     Jekyll,                     tutorial,                                                                                           Powerful things you can do with the Markdown editor                          In                     Jekyll,                     tutorial,                                                                                           Never stopped worrying or loving the bomb                          In                     Jekyll,                                                                                           Markdown Example                          In                     Jekyll,                     tutorial,                                                                   "
+    "body": "          Categories          {% for category in site. categories %}     {{ category[0] }}:           {% assign pages_list = category[1] %}    {% for post in pages_list %}    {% if post. title != null %}     {% if group == null or group == post. group %}           {% include main-loop-card. html %}     {% endif %}    {% endif %}    {% endfor %}    {% assign pages_list = nil %}    {% assign group = nil %}    {% endfor %}                  {% include sidebar-featured. html %}          "
     }, {
     "id": 5,
     "url": "http://localhost:4000/contact.html",
     "title": "Contact",
-    "body": "  Please send your message to Darren Sim. We will reply as soon as possible!   "
+    "body": "  Please send your message to {{site. name}}. We will reply as soon as possible!   "
     }, {
     "id": 6,
     "url": "http://localhost:4000/",
     "title": "Mundana Free Jekyll Theme",
-    "body": "                                  Welcome to Jekyll!  :       You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the s. . .               In                 Jekyll,                                        Feb 04, 2019                                                                                                                             Powerful things you can do with the Markdown editor          :                       In                         Jekyll,                         tutorial,                                                                  Feb 03, 2019                                                                                                                                     The first mass-produced book to deviate from a rectilinear format          :                       In                         tutorial,                                                                  Feb 02, 2019                                                                                                                                    Education must also train one for quick, resolute and effective thinking.           :                       In                         Jekyll,                         tutorial,                                                                  Feb 01, 2019                                                               Could we reinvent the charm of old cities                  Bucharest’s history alternated periods of development and decline from the early settlements in antiquity until its consolidation as . . .                 Read More            	                               All Stories:                   		Welcome to Jekyll!	: 		  You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common wa. . . 	 			In 				Jekyll, 								Feb 04, 2019						                  		Powerful things you can do with the Markdown editor	: 		  There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about t. . . 	 			In 				Jekyll, 				tutorial, 								Feb 03, 2019						                  		The first mass-produced book to deviate from a rectilinear format	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				tutorial, 								Feb 02, 2019						                  		Education must also train one for quick, resolute and effective thinking. 	: 		  There are lots of powerful things you can do with the Markdown editor	 			In 				Jekyll, 				tutorial, 								Feb 01, 2019						                  		Accumulated experience of social living	: 		  The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 	 			In 				Jekyll, 				tutorial, 								Jan 30, 2019						                  		About Bundler	: 		  gem install bundler installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:	 			In 				Jekyll, 								Jan 29, 2019						                  		We all wait for summer	: 		  This is changed. As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Mos. . . 	 			In 				Jekyll, 				tutorial, 								Jan 28, 2019						                  		Tree of Codes	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				Jekyll, 				tutorial, 								Jan 27, 2019						                  		Red Riding Hood	: 		  The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot. . . 	 			In 				Jekyll, 				tutorial, 								Jan 26, 2019						                  		Press and education	: 		  Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, i. . . 	 			In 				Jekyll, 				tutorial, 								Jan 25, 2019						                                                &laquo;                              1                               2                              Next &raquo;                                          Featured:    				                                          The first mass-produced book to deviate from a rectilinear format                          In                     tutorial,                                                                                           We all wait for summer                          In                     Jekyll,                     tutorial,                                                                                           Powerful things you can do with the Markdown editor                          In                     Jekyll,                     tutorial,                                                                                           Never stopped worrying or loving the bomb                          In                     Jekyll,                                                                                           Markdown Example                          In                     Jekyll,                     tutorial,                                                               "
+    "body": "  {% if page. url ==  /  %}            {% assign latest_post = site. posts[0] %}          &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image contains  ://  %}{{ latest_post. image }}{% else %} {{site. baseurl}}/{{ latest_post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;           {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                                {{ latest_post. date | date: '%b %d, %Y' }}                            {%- assign second_post = site. posts[1] -%}                        {% if second_post. image %}                         &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;                        {% endif %}                                    {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                                      {{ second_post. date | date: '%b %d, %Y' }}                                    {%- assign third_post = site. posts[2] -%}                        {% if third_post. image %}                         &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;                        {% endif %}                                    {{ third_post. title }}          :                       In             {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                                      {{ third_post. date | date: '%b %d, %Y' }}                                    {%- assign fourth_post = site. posts[3] -%}                        {% if fourth_post. image %}                        &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;                        {% endif %}                                    {{ fourth_post. title }}          :                       In             {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                                      {{ fourth_post. date | date: '%b %d, %Y' }}                                  {% for post in site. posts %} {% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More            	             {% endif %}{% endfor %}  {% endif %}                All Stories:         {% for post in paginator. posts %}          {% include main-loop-card. html %}        {% endfor %}                   {% if paginator. total_pages &gt; 1 %}              {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}                     {% include sidebar-featured. html %}      "
     }, {
     "id": 7,
     "url": "http://localhost:4000/privacy-policy.html",
@@ -311,638 +310,35 @@ function lunr_search(term) {
     <!-- Content -->
     <main role="main" class="site-content">
         <div class="container">
-    
+<h3 class="font-weight-bold spanborder"><span>About Darren Sim</span></h3>
+<div class="row">
+    <div class="col-md-8">
+     
+    <div class="page-content">
+        <p><strong>Darren Sim</strong> is a polyglot full-stack Software Developer, Technical Lead, Conference Speaker, and Author.</p>
 
-    
-    
-    
-<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
-<div class="row remove-site-content-margin">
-    
-    <!-- latest post -->
-    
-    <div class="col-md-6">
-    <div class="card border-0 mb-4 box-shadow">   
-    <a href="/welcome-to-jekyll/">
-    <div class="topfirstimage" style="background-image: url( /assets/images/demo1.jpg); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
-    </a>
-    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
-    <h2 class="h4 font-weight-bold">
-    <a class="text-dark" href="/welcome-to-jekyll/">Welcome to Jekyll!</a>
-    </h2>
-    <p class="excerpt">
-        You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the s...
-    </p>
-    <div>
-        <small class="d-block text-muted">
-            In <span class="catlist">
-                
-                <a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-                
-                </span>                   
-        </small>
-        <small class="text-muted">
-            Feb 04, 2019
-        </small>
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    <div class="col-md-6">
-        
-        <!-- second latest post --><div class="mb-3 d-flex align-items-center">                
-                
-                <div class="col-md-4">
-                <a href="/powerful-things-markdown-editor/">
-                 <img class="w-100" src="https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Powerful things you can do with the Markdown editor">
-                </a>
-                </div>
-                                
-                <div>
-                    <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="/powerful-things-markdown-editor/">Powerful things you can do with the Markdown editor</a>
-                    </h2>
-                    <small class="d-block text-muted">
-                        In <span class="catlist">
-                        
-                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-                        
-                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-                        
-                        </span>                   
-                    </small>
-                    <small class="text-muted">
-                        Feb 03, 2019
-                    </small>
-                </div>
-            </div>
-        
-        <!-- third latest post --><div class="mb-3 d-flex align-items-center">                
-                
-                <div class="col-md-4">
-                <a href="/first-mass-produced/">
-                 <img class="w-100" src="/assets/images/17.jpg" alt="The first mass-produced book to deviate from a rectilinear format">
-                </a>
-                </div>
-                                
-                <div>
-                    <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="/first-mass-produced/">The first mass-produced book to deviate from a rectilinear format</a>
-                    </h2>
-                    <small class="d-block text-muted">
-                        In <span class="catlist">
-                        
-                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-                        
-                        </span>                   
-                    </small>
-                    <small class="text-muted">
-                        Feb 02, 2019
-                    </small>
-                </div>
-            </div>
-        
-        <!-- fourth latest post --><div class="mb-3 d-flex align-items-center">                
-                
-                <div class="col-md-4">
-                <a href="/education/">
-                <img class="w-100" src="/assets/images/3.jpg" alt="Education must also train one for quick, resolute and effective thinking.">
-                </a>
-                </div>
-                                
-                <div>
-                    <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="/education/">Education must also train one for quick, resolute and effective thinking.</a>
-                    </h2>
-                    <small class="d-block text-muted">
-                        In <span class="catlist">
-                        
-                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-                        
-                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-                        
-                        </span>                   
-                    </small>
-                    <small class="text-muted">
-                        Feb 01, 2019
-                    </small>
-                </div>
-            </div>
+<p>Starting his career in IT since 2003, Darren has amassed over 15 years of professional work experiences in various capacities: Technical Lead, Software Architect, Consultant (Digital Strategy), Software Security Researcher, Technical Evangelist, Technical Trainer, Full-stack Software Developer, Software Test Engineer, Data Analyst and Web Designer.</p>
+
+<p>During this time, Darren had the privilege to work with a variety of organisations, from Startups (10+ employees) to Multi National Corporations (10K+ employees) in the following industry verticals: Accounting, Digital Media, Education, Government, Insurance, Medical, Military, Retail, Security, Supply Chain, and Tech. Countries that Darren has worked in includes, New Zealand, Singapore and the United States (USA).</p>
+
+<p>Darren draws upon a background of change management, design thinking, system thinking, lean/agile/learning theories and hands-on development to bring a unique perspective tightly blending technical, organisational and leadership concerns.</p>
+
+<p>A firm believer that “an investment in knowledge pays the best dividends“, and “the best way to learn something is to teach“, Darren actively acquires new knowledge through the process of learning, sharing, unlearning, and relearning. Darren is frequently found sharing his learnings at conferences, and through writing.</p>
+
+<p>Over the years, Darren has received numerous accolades including the Oracle Corporate Singapore Prize, AVAYA Singapore Prize, Frontline Technologies Prize, IDA Singapore Course Silver Medal, Golden Web Awards, Microsoft’s Top Student Champion (FY06), the MYOB Ignition Awards and the Microsoft Most Valuable Professional (MVP) Award for 8 years in a row, placing him in the MVP Hall-of-Fame.</p>
+
+<p>Darren was the Asia Pacific Editor for the International .NET Association (INETA), an invited member of the Microsoft Developer Guidance Web Advisory Council and an invited technical expert to the United Nations (UN) Expert Group Meeting on Public Private Partnerships (PPP) and MDGs implementation ’09, held in Geneva, Switzerland.</p>
+
+<p>Educated in Singapore, Darren received his Diploma with Merit in Information Technology from Temasek Polytechnic and his Bachelors of Science in Information System from the Singapore Management University. Darren was a valedictorian, university scholar, student leader, teaching assistant, as well as a research assistant.</p>
+
+        <!-- Comments -->
         
     </div>
-    
-</div>
-    
-<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
-    <div class="pl-4 pr-0 h-100 tofront">
-        <div class="row justify-content-between">
-            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">Could we reinvent the charm of old cities</h1>
-                <p class="mb-3 lead">
-                    Bucharest’s history alternated periods of development and decline from the early settlements in antiquity until its consolidation as ...
-                </p>
-                <a href="/charm-old-cities/" class="btn btn-dark">Read More</a>
-            </div>
-            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url(/assets/images/home.jpg);">	
-            </div>
-        </div>
     </div>
-</div> 
-
-
-
-
-    
-
-
- <!--endif page url is / -->
-    
-
-
-<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
-    
-<div class="row mt-3">
-   
-    <div class="col-md-8 main-loop">
-        
-        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
-        
-
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/welcome-to-jekyll/">Welcome to Jekyll!</a>
-	</h2>
-	<p class="excerpt">
-	   You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common wa...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Feb 04, 2019
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/welcome-to-jekyll/">
-	<img class="w-100" src="/assets/images/demo1.jpg" alt="Welcome to Jekyll!">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/powerful-things-markdown-editor/">Powerful things you can do with the Markdown editor</a>
-	</h2>
-	<p class="excerpt">
-	   There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about t...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Feb 03, 2019
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/powerful-things-markdown-editor/">
-	<img class="w-100" src="https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Powerful things you can do with the Markdown editor">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/first-mass-produced/">The first mass-produced book to deviate from a rectilinear format</a>
-	</h2>
-	<p class="excerpt">
-	   The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Feb 02, 2019
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/first-mass-produced/">
-	<img class="w-100" src="/assets/images/17.jpg" alt="The first mass-produced book to deviate from a rectilinear format">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/education/">Education must also train one for quick, resolute and effective thinking.</a>
-	</h2>
-	<p class="excerpt">
-	   There are lots of powerful things you can do with the Markdown editor
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Feb 01, 2019
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/education/">
-	<img class="w-100" src="/assets/images/3.jpg" alt="Education must also train one for quick, resolute and effective thinking.">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/acumulated-experience/">Accumulated experience of social living</a>
-	</h2>
-	<p class="excerpt">
-	   The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Jan 30, 2019
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/acumulated-experience/">
-	<img class="w-100" src="/assets/images/15.jpg" alt="Accumulated experience of social living">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/about-bundler/">About Bundler</a>
-	</h2>
-	<p class="excerpt">
-	   gem install bundler installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Jan 29, 2019
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/about-bundler/">
-	<img class="w-100" src="/assets/images/2.jpg" alt="About Bundler">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/we-all-wait-for-summer/">We all wait for summer</a>
-	</h2>
-	<p class="excerpt">
-	   This is changed. As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Mos...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Jan 28, 2019
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/we-all-wait-for-summer/">
-	<img class="w-100" src="/assets/images/1.jpg" alt="We all wait for summer">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/tree-of-codes/">Tree of Codes</a>
-	</h2>
-	<p class="excerpt">
-	   The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Jan 27, 2019
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/tree-of-codes/">
-	<img class="w-100" src="/assets/images/2.jpg" alt="Tree of Codes">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/red-riding/">Red Riding Hood</a>
-	</h2>
-	<p class="excerpt">
-	   The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Jan 26, 2019
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/red-riding/">
-	<img class="w-100" src="/assets/images/3.jpg" alt="Red Riding Hood">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/press-and-education/">Press and education</a>
-	</h2>
-	<p class="excerpt">
-	   Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, i...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Jan 25, 2019
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/press-and-education/">
-	<img class="w-100" src="/assets/images/7.jpg" alt="Press and education">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-        <div class="mt-5">
-         <!-- Pagination links -->
-            
-            <ul class="pagination"> 
-              
-                <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
-              
-
-              
-                
-                <li class="page-item disabled"><span class="webjeda page-link">1</span></li>
-                
-              
-                
-                <li class="page-item"><a class="page-link" href="/page2">2</a></li>
-                
-              
-
-              
-                <li class="page-item"><a class="page-link" href="/page2">Next &raquo;</a></li>
-              
-            </ul>
-                  
-        </div>
-        
-    </div>
-    
     <div class="col-md-4">
-        <div class="sticky-top sticky-top-offset">
-    <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>  
-    <ol class="list-featured">				
-                        
-            <li class="mb-4">
-            <span>
-                <h6 class="font-weight-bold">
-                    <a href="/first-mass-produced/" class="text-dark">The first mass-produced book to deviate from a rectilinear format</a>
-                </h6>
-                <span class="d-block text-muted">
-                    In <span class="catlist">
-                    
-                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-                    
-                    </span>
-                </span>
-            </span>
-            </li>                
-                        
-            <li class="mb-4">
-            <span>
-                <h6 class="font-weight-bold">
-                    <a href="/we-all-wait-for-summer/" class="text-dark">We all wait for summer</a>
-                </h6>
-                <span class="d-block text-muted">
-                    In <span class="catlist">
-                    
-                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-                    
-                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-                    
-                    </span>
-                </span>
-            </span>
-            </li>                
-                        
-            <li class="mb-4">
-            <span>
-                <h6 class="font-weight-bold">
-                    <a href="/powerful-things-markdown-editor/" class="text-dark">Powerful things you can do with the Markdown editor</a>
-                </h6>
-                <span class="d-block text-muted">
-                    In <span class="catlist">
-                    
-                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-                    
-                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-                    
-                    </span>
-                </span>
-            </span>
-            </li>                
-                        
-            <li class="mb-4">
-            <span>
-                <h6 class="font-weight-bold">
-                    <a href="/never-stopped-worrying-never-loved-bomb/" class="text-dark">Never stopped worrying or loving the bomb</a>
-                </h6>
-                <span class="d-block text-muted">
-                    In <span class="catlist">
-                    
-                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-                    
-                    </span>
-                </span>
-            </span>
-            </li>                
-                        
-            <li class="mb-4">
-            <span>
-                <h6 class="font-weight-bold">
-                    <a href="/markup-example/" class="text-dark">Markdown Example</a>
-                </h6>
-                <span class="d-block text-muted">
-                    In <span class="catlist">
-                    
-                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
-                    
-                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-                    
-                    </span>
-                </span>
-            </span>
-            </li>                
-           
-    </ol>
-</div>     
+        Hi
     </div>
-    
-</div>
-
-
-
+</div>  
 </div>
     </main>
 
