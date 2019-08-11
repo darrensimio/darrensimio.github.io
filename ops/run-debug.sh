@@ -1,0 +1,1 @@
+jekyll serve --livereload --watch --open-url

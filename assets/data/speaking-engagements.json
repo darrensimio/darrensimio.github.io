@@ -1,0 +1,497 @@
+{
+    "name": "Speaking Engagements",
+    "data": [
+        [
+            "Microservices Delivery Patterns - Delivering Innovation and Experimentation at Scale",
+            "121 Test Automation and DevOps Day",
+            "Auckland, New Zealand",
+            "17.09.2018"
+        ],
+        [
+            "Increasing Software Success and Reducing Waste by Pushing Quality Upstream with TDD and BDD",
+            "121 Test Automation and DevOps Day",
+            "Auckland, New Zealand",
+            "17.09.2018"
+        ],
+        [
+            "Performing Social Media Sentiment Analysis & Topic Modelling with AWS ",
+            "Auckland AWS Community Meet-ups",
+            "Auckland, New Zealand",
+            "06.09.2018"
+        ],
+        [
+            "How Leading Software Companies Delivery Software and Experiments at Scale with Feature Toggles.",
+            "IAG New Zealand Guilds Week",
+            "Auckland, New Zealand",
+            "03.05.2018"
+        ],
+        [
+            "Code Retreat: Conway's Game of Life",
+            "University of Auckland Information Technology Club (ITC)",
+            "Auckland, New Zealand",
+            "29.09.2017"
+        ],
+        [
+            "Shortening the Customer Feedback Loop with Feature Switching",
+            "Test Automation Summit 2017",
+            "Auckland, New Zealand",
+            "26.09.2017"
+        ],
+        [
+            "Shortening the Customer Feedback Loop with Feature Switching",
+            "MYOB Brownbags Auckland",
+            "Auckland, New Zealand",
+            "14.09.2017"
+        ],
+        [
+            "Discovering IOT with Philip Hue and IFTTT",
+            "Philips Hue Launch Event",
+            "Singapore",
+            "01.02.2014"
+        ],
+        [
+            "Integrating with Windows 8 Experiences",
+            "Microsoft Build for Windows 8",
+            "Singapore",
+            "01.03.2012"
+        ],
+        [
+            "HTML 5, CSS3 and ASP.NET Best Practices by Example",
+            "Microsoft Community Technology Update (CTU)",
+            "Singapore",
+            "01.01.2012"
+        ],
+        [
+            "Social Media Essentials and The new Web",
+            "Infocomm Development Authority of Singapore",
+            "Singapore",
+            "01.08.2011"
+        ],
+        [
+            "Commercial Potential: Does social media have revenue potential? In what context? What are the risks and rewards? Are commercial players welcome?",
+            "Asia Publishing Convention 2011",
+            "Bangkok, Thailand",
+            "01.07.2011"
+        ],
+        [
+            "Cost efficiencies: Can social media marketing reduce cost? Go where the traffic is, understand networking, research and promote your product without waste.",
+            "Asia Publishing Convention 2011",
+            "Bangkok, Thailand",
+            "01.07.2011"
+        ],
+        [
+            "Effective Presentations\n",
+            "Infocomm Development Authority of Singapore",
+            "Singapore",
+            "27.06.2011"
+        ],
+        [
+            "Things every ASP.NET developer should know in this Web2.0 ERA\n",
+            "Microsoft Community Technology Update (CTU)",
+            "Singapore",
+            "24.06.2011"
+        ],
+        [
+            "Developing Scalable Applications with ASP.NET MVC",
+            "TechInsights Conference",
+            "Penang, Malaysia",
+            "24.09.2010"
+        ],
+        [
+            "Visualizing your ASP.NET app with Razor\n",
+            "TechInsights Conference",
+            "Penang, Malaysia",
+            "23.09.2010"
+        ],
+        [
+            "The ABC of Twitter, Facebook, YouTube and more: where is the commercial pay-off?",
+            "Asian Publishing Convention 2010",
+            "Ho Chi Minh, Vietnam",
+            "09.07.2010"
+        ],
+        [
+            "Developing Service Centric Applications with Windows Workflow 4.0",
+            "TechInsights Conference",
+            "Kuala Lumpur, Malaysia",
+            "01.07.2010"
+        ],
+        [
+            "Building Service Oriented Applications with WCF 4.0\n",
+            "TechInsights Conference",
+            "Kuala Lumpur, Malaysia",
+            "29.06.2010"
+        ],
+        [
+            "Introduction to ASP.NET 4.0, AJAX & Visual Studio 2010",
+            "Temasek Polytechnic",
+            "Singapore",
+            "05.02.2010"
+        ],
+        [
+            "Microsoft Ajax Content Delivery Network",
+            "TechEd",
+            "Columbo, Sri Lanka",
+            "09.02.2010"
+        ],
+        [
+            "Next Generation Web Application with ASP.NET 4.0 and Visual Studio 2010\n",
+            "TechEd",
+            "Columbo, Sri Lanka",
+            "08.02.2010"
+        ],
+        [
+            "Getting Productive with the Microsoft Office Suite",
+            "Singapore Management University",
+            "Singapore",
+            "22.01.2010"
+        ],
+        [
+            "What’s So Smart About Smart Phones?",
+            "IDA Silver Infocomm Day",
+            "Singapore",
+            "01.12.2009"
+        ],
+        [
+            "New Media, New You",
+            "Singapore Management University",
+            "Singapore",
+            "24.10.2009"
+        ],
+        [
+            "Accessing Windows with .Net 4.0",
+            "TechInsights Conference",
+            "Penang, Malaysia",
+            "18.09.2009"
+        ],
+        [
+            "Membership awareness in Web applications",
+            "TechInsights Conference",
+            "Penang, Malaysia",
+            "18.09.2009"
+        ],
+        [
+            "Introduction to Microsoft Developer Platforms",
+            "Singapore Management University",
+            "Singapore",
+            "21.08.2009"
+        ],
+        [
+            "Building a SMS Ready website",
+            "Singapore Management University",
+            "Singapore",
+            "28.05.2009"
+        ],
+        [
+            "Building Responsive Applications",
+            "Singapore Management University",
+            "Singapore",
+            "15.04.2009"
+        ],
+        [
+            "How to Maximize Your PowerPoint Presentation",
+            "Contact Center Association of Singapore",
+            "Singapore",
+            "17.03.2009"
+        ],
+        [
+            "Building Scalable C# Applications for HR",
+            "MINDEF",
+            "Singapore",
+            "05.03.2009"
+        ],
+        [
+            "Dynamic Master Pages with ASP.NET 3.5",
+            "",
+            "Singapore",
+            "28.02.2009"
+        ],
+        [
+            "Portal Development with ASP.NET and WSS",
+            "",
+            "Singapore",
+            "14.02.2009"
+        ],
+        [
+            "Developing Interactive Web 2.0 Sites with ASP.NET 3.5",
+            "",
+            "Singapore",
+            "31.01.2009"
+        ],
+        [
+            "Connecting to the World with Microsoft LIVE!",
+            "",
+            "Singapore",
+            "10.01.2009"
+        ],
+        [
+            "Discovering Microsoft Windows Vista & Making it Work for you",
+            "",
+            "Singapore",
+            "29.11.2008"
+        ],
+        [
+            "Framework Design",
+            "SGDotNet Usergroup",
+            "Singapore",
+            "22.11.2008"
+        ],
+        [
+            "End-To-End Development with the Microsoft .NET Platform",
+            "Nanyang Technological University",
+            "Singapore",
+            "20.10.2008"
+        ],
+        [
+            "Quick Intro to .NET 3.5",
+            "",
+            "Singapore",
+            "12.09.2008"
+        ],
+        [
+            "Re-learning user friendly design for print, websites, PDAs or mobile phones",
+            "Asia Publishing Convention",
+            "Singapore",
+            "14.08.2008"
+        ],
+        [
+            "Inviting the World to your Website",
+            "Youth.SG Forum",
+            "Singapore",
+            "26.07.2008"
+        ],
+        [
+            "Video Editing for beginners made easy (Windows Movie Maker)",
+            "Bali Ophthalmology Retreat",
+            "Bali, Indonesia",
+            "25.04.2008"
+        ],
+        [
+            "PowerPoint presentations made easy and guidelines to using Keynotes!\n",
+            "Bali Ophthalmology Retreat",
+            "Bali, Indonesia",
+            "24.04.2008"
+        ],
+        [
+            "Video Editting with Windows Movie Maker",
+            "Microsoft",
+            "Singapore",
+            "17.04.2008"
+        ],
+        [
+            "Windows Live SDK",
+            "SgDotNet Usergroup",
+            "Singapore",
+            "06.03.2008"
+        ],
+        [
+            "Developing your own E-Microsoft Office with ASP.NET 2.0, Microsoft Ajax and OpenXML",
+            "TechEd",
+            "Kuala Lumpur, Malaysia",
+            "13.09.2007"
+        ],
+        [
+            "Developing a Web-Based Chat System with ASP.NET 2.0, Ajax & SQL Server 2005 Express",
+            "TechEd",
+            "Kuala Lumpur, Malaysia",
+            "12.09.2007"
+        ],
+        [
+            "The Next Web’s Here! Where are you?",
+            "Singapore Management University",
+            "Singapore",
+            "20.08.2007"
+        ],
+        [
+            "Code Focus: Silverlight",
+            "SGDotNet Usergroup",
+            "Singapore",
+            "02.08.2007"
+        ],
+        [
+            "Lighting up the web with Silverlight",
+            "SGDotNet Usergroup",
+            "Singapore",
+            "05.07.2007"
+        ],
+        [
+            "Game Development with Microsoft XNA",
+            "Institute of Technical Education",
+            "Singapore",
+            "01.06.2007"
+        ],
+        [
+            "ROUNDTABLE: The importance of Security in Games",
+            "International Game Developers’ Association",
+            "Singapore",
+            "26.05.2007"
+        ],
+        [
+            "XNA Demystified",
+            "International Game Developers’ Association",
+            "Singapore",
+            "26.05.2007"
+        ],
+        [
+            "Expressions Web Lab Session",
+            "Singapore Management University",
+            "Singapore",
+            "12.05.2007"
+        ],
+        [
+            "Game Development in XNA, Vista & XBOX 360",
+            "Ngee Ann Polytechnic",
+            "Singapore",
+            "08.05.2007"
+        ],
+        [
+            "LOVE Campus Launch: Introduction to XNA",
+            "",
+            "Singapore",
+            "24.04.2007"
+        ],
+        [
+            "The Web Development Eco-system with VSTS, ASP.NET 2.0 & Microsoft Ajax Library",
+            "VSLive!",
+            "San Francisco, USA",
+            "27.03.2007"
+        ],
+        [
+            "MediaCentre DEMO",
+            "Microsoft",
+            "Singapore",
+            "11.03.2007"
+        ],
+        [
+            "Game Development with XNA",
+            "MSDN Singapore",
+            "Singapore",
+            "03.03.2007"
+        ],
+        [
+            "Opening up the New Office File Format with OpenXML",
+            "Office Usergroup",
+            "Singapore",
+            "13.02.2007"
+        ],
+        [
+            "Introduction to Microsoft Ajax Library",
+            "",
+            "Singapore",
+            "09.02.2007"
+        ],
+        [
+            "Meet the Experts Session",
+            "",
+            "Singapore",
+            "31.01.2007"
+        ],
+        [
+            "Microsoft Ajax Library",
+            "MSDN Singapore",
+            "Singapore",
+            "29.01.2007"
+        ],
+        [
+            "Microsoft Expression Tools",
+            "DevCon’06",
+            "Singapore",
+            "16.12.2006"
+        ],
+        [
+            "Science of Game Development & Leaveraging on XNA",
+            "SGDotNet Usergroup",
+            "Singapore",
+            "14.12.2006"
+        ],
+        [
+            "XNA Game Development",
+            "MSDN Singapore",
+            "Singapore",
+            "09.12.2006"
+        ],
+        [
+            "Creating Rich Web Experience with Microsoft Ajax",
+            "",
+            "Singapore",
+            "08.12.2006"
+        ],
+        [
+            "ST National Newspaper Competition",
+            "Singapore Press Holdings",
+            "Singapore",
+            "21.11.2006"
+        ],
+        [
+            "Web Development with .NET",
+            "",
+            "Singapore",
+            "16.11.2006"
+        ],
+        [
+            "Introduction to Game Development and Microsoft XNA",
+            "SGDotNet Usergroup",
+            "Singapore",
+            "02.11.2006"
+        ],
+        [
+            "Evolving the Web with ASP. NET 2.0 and the Microsoft Ajax Foundation",
+            "Temasek Polytechnic",
+            "Singapore",
+            "01.11.2006"
+        ],
+        [
+            "XNA – An Academia Sharing",
+            "",
+            "Singapore",
+            "30.10.2006"
+        ],
+        [
+            "XNA – An Overview",
+            "International Game Developers’ Association",
+            "Singapore",
+            "28.10.2006"
+        ],
+        [
+            "Introduction to Microsoft XNA",
+            "",
+            "Singapore",
+            "21.10.2006"
+        ],
+        [
+            "Windows Vista, An Introduction",
+            "",
+            "Singapore",
+            "30.06.2006"
+        ],
+        [
+            "Remix06 – Ask the Experts",
+            "REMIX",
+            "Singapore",
+            "29.06.2006"
+        ],
+        [
+            "Developing Windows and Live Gadgets",
+            "REMIX",
+            "Singapore",
+            "29.06.2006"
+        ],
+        [
+            "Atlas Cool Demos",
+            "Microsoft",
+            "Singapore",
+            "10.06.2006"
+        ],
+        [
+            "DPE/MVP Sharing Session",
+            "Microsoft",
+            "Singapore",
+            "18.05.2006"
+        ],
+        [
+            "MSDN Day Singapore – Ask The Experts Session",
+            "MSDN Singapore",
+            "Singapore",
+            "05.05.2006"
+        ]
+    ]
+}

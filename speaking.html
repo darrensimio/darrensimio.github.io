@@ -134,7 +134,7 @@ var documents = [{
     "id": 9,
     "url": "/speaking",
     "title": "Speaking Engagements",
-    "body": ""
+    "body": "            Topic      Conference / Organisation      Location      Date                  Topic      Conference / Organisation      Location      Date      "
     }, {
     "id": 10,
     "url": "/tags.html",
@@ -309,20 +309,44 @@ function lunr_search(term) {
     <main role="main" class="site-content">
         <div class="container">
 <h3 class="font-weight-bold spanborder"><span>Speaking Engagements</span></h3>
-<div class="row">
-    <div class="col-md-8">
-     
-    <div class="page-content">
-        
+<div class="page-content">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css" />
 
-        <!-- Comments -->
-        
-    </div>
-    </div>
-    <div class="col-md-4">
-        Hi
-    </div>
-</div>  
+<table id="table_id" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Topic</th>
+            <th>Conference / Organisation</th>
+            <th>Location</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Topic</th>
+            <th>Conference / Organisation</th>
+            <th>Location</th>
+            <th>Date</th>
+        </tr>
+    </tfoot>
+</table>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+
+<script type="text/javascript">
+		jQuery(document).ready(function () {
+			jQuery('#table_id').DataTable({
+				"ordering": false,
+				"pageLength": 10,
+				"ajax": './assets/data/speaking-engagements.json'
+			});
+		});
+	</script>
+
+
+<!-- Comments -->
+
+</div>
 </div>
     </main>
 
