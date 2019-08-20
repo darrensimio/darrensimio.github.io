@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-19T17:33:59+00:00</updated><id>/feed.xml</id><title type="html">Darren Sim</title><subtitle>Tech Lead, Developer, Speaker &amp; Author in New Zealand</subtitle><entry><title type="html">Tips for Running a Code Kata (Developer Dojo) at the Workplace</title><link href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/" rel="alternate" type="text/html" title="Tips for Running a Code Kata (Developer Dojo) at the Workplace" /><published>2018-07-14T00:00:00+00:00</published><updated>2018-07-14T00:00:00+00:00</updated><id>/tips-for-running-a-code-kata-developer-dojo-at-the-workplace</id><content type="html" xml:base="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">&lt;h2 id=&quot;what-is-a-code-kata&quot;&gt;What is a Code Kata?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-20T23:20:15+00:00</updated><id>/feed.xml</id><title type="html">Darren Sim</title><subtitle>Tech Lead, Developer, Speaker &amp; Author in New Zealand</subtitle><entry><title type="html">Tips for Running a Code Kata (Developer Dojo) at the Workplace</title><link href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/" rel="alternate" type="text/html" title="Tips for Running a Code Kata (Developer Dojo) at the Workplace" /><published>2018-07-14T00:00:00+00:00</published><updated>2018-07-14T00:00:00+00:00</updated><id>/tips-for-running-a-code-kata-developer-dojo-at-the-workplace</id><content type="html" xml:base="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">&lt;h2 id=&quot;what-is-a-code-kata&quot;&gt;What is a Code Kata?&lt;/h2&gt;
 
 &lt;p&gt;A concept borrowed from the Japanese martial arts world, katas are exercises which help practitioners hone their skills through practice and repetition. Over the past decade, katas has been adopted as part of the wider Software Craftsmanship movement, seeing katas introduced as part of leading Software Development and Software Architecture courses around the world.
 Organisations and software teams that embrace this practice has increasingly prioritised time for software practitioners to work on katas together, at a regular cadence. This provides a safe space for teams to &lt;strong&gt;experiment new practices&lt;/strong&gt;, &lt;strong&gt;hone new skills&lt;/strong&gt;, &lt;strong&gt;challenge assumptions&lt;/strong&gt; and &lt;strong&gt;work with team members they do not usually interact with&lt;/strong&gt;.&lt;/p&gt;
@@ -75,34 +75,203 @@ Usually 120 minutes (2 hours) to 240 minutes (4 hours). 90 minutes might work in
       &lt;td&gt;&lt;strong&gt;Retrospect on Activity&lt;/strong&gt; Talk through with participants on what they have learnt from the session, what it might be improved and how might they apply how they learnt into their ways of working.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>sal</name></author><summary type="html">What is a Code Kata?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/coding-dojo.jpg" /></entry><entry><title type="html">Introduction to Feature Toggles and Implementation Best Practices</title><link href="/introduction-to-feature-toggles-and-implementation-best-practices/" rel="alternate" type="text/html" title="Introduction to Feature Toggles and Implementation Best Practices" /><published>2018-06-24T00:00:00+00:00</published><updated>2018-06-24T00:00:00+00:00</updated><id>/introduction-to-feature-toggles-and-implementation-best-practices</id><content type="html" xml:base="/introduction-to-feature-toggles-and-implementation-best-practices/">&lt;p&gt;As software professionals, success is measured by our ability to improve our users’ lives.&lt;/p&gt;
+&lt;/table&gt;</content><author><name>sal</name></author><summary type="html">What is a Code Kata?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/coding-dojo.jpg" /></entry><entry><title type="html">Introduction to Feature Toggles and Implementation Best Practices</title><link href="/introduction-to-feature-toggles-and-implementation-best-practices/" rel="alternate" type="text/html" title="Introduction to Feature Toggles and Implementation Best Practices" /><published>2018-06-24T00:00:00+00:00</published><updated>2018-06-24T00:00:00+00:00</updated><id>/introduction-to-feature-toggles-and-implementation-best-practices</id><content type="html" xml:base="/introduction-to-feature-toggles-and-implementation-best-practices/">As software professionals, success is measured by our ability to improve our users’ lives.
 
-&lt;p&gt;Unlike other engineering fields which have been around for hundreds of years, the software engineering discipline has existed for barely a hundred years. As an industry, software development is still largely part-art, part-science.&lt;/p&gt;
+Unlike other engineering fields which have been around for hundreds of years, the software engineering discipline has existed for barely a hundred years. As an industry, software development is still largely part-art, part-science.
 
-&lt;p&gt;With the ever evolving business and technological landscape, many of our past experiences serve merely as references. Adding to the unknowns, users seldom know what features they want, but they know what they don’t want. More often than not, it takes several attempts of trial-and-error before software teams become successful in delivering features that stick.&lt;/p&gt;
+With the ever evolving business and technological landscape, many of our past experiences serve merely as references. Adding to the unknowns, users seldom know what features they want, but they know what they don’t want. More often than not, it takes several attempts of trial-and-error before software teams become successful in delivering features that stick.
 
-&lt;p&gt;The ability to continuously deliver working software into the hands of customers, has served as a competitive advantage for leading tech companies like Amazon and Facebook. Not only did this capability allow engineering teams to deploy code into production in small chunks, quickly, and safely, it also shortened the feedback loop - allowing teams to learn fast and respond to changes quickly.&lt;/p&gt;
+The ability to continuously deliver working software into the hands of customers, has served as a competitive advantage for leading tech companies like Amazon and Facebook. Not only did this capability allow engineering teams to deploy code into production in small chunks, quickly, and safely, it also shortened the feedback loop - allowing teams to learn fast and respond to changes quickly.
 
-&lt;p&gt;In the practice of Continuous Delivery (CD), it’s important that the application is continuously integrated (CI), and deployable at all times. This can be challenging especially in situations where a feature spans multiple commits, and, an urgent fix needs to be released before the development of that feature is complete. This highlights the need for deployment and release to be decoupled.&lt;/p&gt;
+In the practice of Continuous Delivery (CD), it's important that the application is continuously integrated (CI), and deployable at all times. This can be challenging especially in situations where a feature spans multiple commits, and, an urgent fix needs to be released before the development of that feature is complete. This highlights the need for deployment and release to be decoupled.
 
-&lt;p&gt;When a feature is completed and deployed to production, teams also need a way to experiment safely, beta testing with a small group of users and being able to roll back quickly if an undesirable experience is observed.&lt;/p&gt;
+When a feature is completed and deployed to production, teams also need a way to experiment safely, beta testing with a small group of users and being able to roll back quickly if an undesirable experience is observed.
 
-&lt;p&gt;Feature Toggles offers options to overcome to these challenges.&lt;/p&gt;
+Feature Toggles offers options to overcome to these challenges.
 
-&lt;p&gt;In this article, we will explore: &lt;strong&gt;1) what feature toggles are&lt;/strong&gt;, &lt;strong&gt;2) how we can use them&lt;/strong&gt;, before &lt;strong&gt;3) discussing best practices&lt;/strong&gt;.&lt;/p&gt;
+In this article, we will explore: &lt;strong&gt;&lt;em&gt;1) what feature toggles are&lt;/em&gt;&lt;/strong&gt;, &lt;em&gt;&lt;strong&gt;2) how we can use them&lt;/strong&gt;&lt;/em&gt;, before &lt;em&gt;&lt;strong&gt;3) discussing best practices&lt;/strong&gt;&lt;/em&gt;.
+&lt;h3&gt;What are Feature Toggles?&lt;/h3&gt;
+Feature Toggling is not a new concept and was a common practice more than 20 years ago, in the absence of reliable and easy-to-use concurrent versioning systems (CVS). In recent years, Feature Toggle experienced a resurgence with the popularisation of DevOps practices and mindsets within software development teams.
 
-&lt;h3 id=&quot;what-are-feature-toggles&quot;&gt;What are Feature Toggles?&lt;/h3&gt;
+Also known as “Feature Flags”, “Config Flags”, “Flippers”, “Feature Bits” and “Conditional Feature”, Feature Toggling is a set of patterns that help teams deliver new functionally to users rapidly but safely, separating deployment from release, allowing teams to modify system behavior without changing code. Implemented by simply wrapping an if-statement around a code block that we are trying to isolate, the condition of this if-statement can be a simple boolean or complex decision trees with multiple paths.
 
-&lt;p&gt;Feature Toggling is not a new concept and was a common practice more than 20 years ago, in the absence of reliable and easy-to-use concurrent versioning systems (CVS). In recent years, Feature Toggle experienced a resurgence with the popularisation of DevOps practices and mindsets within software development teams.&lt;/p&gt;
+The basic idea here is that we have a configuration system that allows the development team to toggle features on or off. When the application is executed, it will use these toggles to decide what features to display. The actual implementation will vary - ranging from a hard-coded configuration value within the application where changing the toggle configurations require a redeployment of the application, to reading toggle states from a text file, or a web service, allowing teams to modify toggle configurations at runtime.
 
-&lt;p&gt;Also known as “Feature Flags”, “Config Flags”, “Flippers”, “Feature Bits” and “Conditional Feature”, Feature Toggling is a set of patterns that help teams deliver new functionally to users rapidly but safely, separating deployment from release, allowing teams to modify system behavior without changing code. Implemented by simply wrapping an if-statement around a code block that we are trying to isolate, the condition of this if-statement can be a simple boolean or complex decision trees with multiple paths.&lt;/p&gt;
+Some of the benefits that Feature Toggles bring to the table include helping teams eliminate nasty merge conflicts, reduce deployment risks and achieving a shorter feedback loop. However, there’s always two side of a coin. Apart from introducing technical debt the moment we use Feature Toggles in our code, Feature Toggles also results in code being more fragile, harder to test, harder to maintain, and harder to support. Hence, Feature Toggles should always be short-lived, and used on a need-be basis rather than it being the silver-bullet to software development.
 
-&lt;p&gt;The basic idea here is that we have a configuration system that allows the development team to toggle features on or off. When the application is executed, it will use these toggles to decide what features to display. The actual implementation will vary - ranging from a hard-coded configuration value within the application where changing the toggle configurations require a redeployment of the application, to reading toggle states from a text file, or a web service, allowing teams to modify toggle configurations at runtime.&lt;/p&gt;
+One of the most common misunderstandings of Feature Toggles is that it can double as a licensing and authorization service. This results in tight coupling of responsibility and should be avoided.
+&lt;h3&gt;Types of Feature Toggles&lt;/h3&gt;
+In his thought-leading article &lt;a href=&quot;https://martinfowler.com/articles/feature-toggles.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;“Feature Toggles (aka Feature Flags)”&lt;/a&gt;, &lt;a href=&quot;http://blog.thepete.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Pete Hodgson&lt;/a&gt; extended &lt;a href=&quot;https://martinfowler.com/aboutMe.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Martin Fowler&lt;/a&gt;’s original post “&lt;a href=&quot;https://martinfowler.com/bliki/FeatureToggle.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;FeatureToggle&lt;/a&gt;”, nicely categorizing Feature Toggles into FOUR categories:
 
-&lt;p&gt;Some of the benefits that Feature Toggles bring to the table include helping teams eliminate nasty merge conflicts, reduce deployment risks and achieving a shorter feedback loop. However, there’s always two side of a coin. Apart from introducing technical debt the moment we use Feature Toggles in our code, Feature Toggles also results in code being more fragile, harder to test, harder to maintain, and harder to support. Hence, Feature Toggles should always be short-lived, and used on a need-be basis rather than it being the silver-bullet to software development.&lt;/p&gt;
+&lt;strong&gt;Short-Lived Toggles&lt;/strong&gt;
 
-&lt;p&gt;One of the most common misunderstandings of Feature Toggles is that it can double as a licensing and authorization service. This results in tight coupling of responsibility and should be avoided.&lt;/p&gt;
+&lt;table style=&quot;width: 100%;&quot;&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;width: 20%; background-color: #bbb; font-weight: bold;&quot;&gt;&lt;/td&gt;
+      &lt;td style=&quot;width: 40%; background-color: #bbb; font-weight: bold; text-align: center;&quot;&gt;Release Toggle&lt;/td&gt;
+      &lt;td style=&quot;width: 40%; background-color: #bbb; font-weight: bold; text-align: center;&quot;&gt;Experimental Toggle&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;Dynamism&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Largely static, changing release toggle decision usually done in code; requiring redeployment.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Highly dynamic; changes with each request&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;Longevity&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Transitionary by nature; should not stick around longer than 1 weeks.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Long enough to generate statically significant results, usually kept around for hours to weeks.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;Benefits&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Allows incomplete and untested code-paths to be deployed to production.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Provides development team with means to make data-driven decisions.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;Disadvantages&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Results in dead code that will not add value to anyone.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Highly dynamic in nature, requiring a third-party services; a conscious technical debt.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;Implementation&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;By hardcoding the condition in the if-statement to false.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Usually by means of an external feature toggle web service.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;When to Use&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;When developing code that is not ready for consumption and has a high risk of breaking the application.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;When performing multivariate testing (e.g. AB Testing)&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;
 
-&lt;h3 id=&quot;types-of-feature-toggles&quot;&gt;Types of Feature Toggles&lt;/h3&gt;
+&lt;strong&gt;Long-Lived Toggles&lt;/strong&gt;
 
-&lt;p&gt;In his thought-leading article “&lt;a href=&quot;https://martinfowler.com/articles/feature-toggles.html&quot;&gt;Feature Toggles (aka Feature Flags)&lt;/a&gt;”, &lt;a href=&quot;http://blog.thepete.net/&quot;&gt;Pete Hodgson&lt;/a&gt; extended &lt;a href=&quot;https://martinfowler.com/aboutMe.html&quot;&gt;Martin Fowler’s&lt;/a&gt; original post “&lt;a href=&quot;https://martinfowler.com/bliki/FeatureToggle.html&quot;&gt;FeatureToggle&lt;/a&gt;”, nicely categorizing Feature Toggles into FOUR categories:&lt;/p&gt;</content><author><name>sal</name></author><summary type="html">As software professionals, success is measured by our ability to improve our users’ lives.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/feature-toggle.jpg" /></entry></feed>
+&lt;table style=&quot;width: 100%;&quot;&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;width: 20%; background-color: #bbb; font-weight: bold;&quot;&gt;&lt;/td&gt;
+      &lt;td style=&quot;width: 40%; background-color: #bbb; font-weight: bold; text-align: center;&quot;&gt;Operation Toggle&lt;/td&gt;
+      &lt;td style=&quot;width: 40%; background-color: #bbb; font-weight: bold; text-align: center;&quot;&gt;Permission Toggle&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;Dynamism&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Relatively static; changes be done with runtime reconfiguration.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Highly dynamic in nature; changes may happen between requests.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;Longevity&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Usually from weeks to years.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Usually spanning months to years.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;Benefits&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Allows system operators to disable / degrade a low performing feature quickly without having to perform a redeployment of the code.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Perform targeted experiments and learnings.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;Disadvantages&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Tends to stick around forever; leading to increased system complexity.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Tends to stick around forever; leading to increased system complexity.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;Implementation&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;By means of a config file on a CDN or other means of data cache services.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Usually by means of an external feature toggle web service.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td style=&quot;background-color: #ddd; font-weight: bold; text-align: center;&quot;&gt;When to Use&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;When rolling out a new feature with unclear performance impact.&lt;/td&gt;
+      &lt;td style=&quot;vertical-align: top;&quot;&gt;Used in cases of dog-fooding, alpha and beta programs.&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;
+
+While this categorization is by no means all-encompassing, it serves as a good reference when making decisions on designing Feature Toggles implementations.
+&lt;h3&gt;My Team’s Experience with Feature Toggles&lt;/h3&gt;
+My team has been working with feature Toggles for the last 18 months and have gone from using an internally developed, maintained and hosted Feature Toggling service, to a commercial operated SaaS-based solution.
+
+Our bread and butters as a team is to build and operate a management dashboard for accountants and book keepers. Through this dashboard, our users will be able to get a birds’ eye view of all their client’s accounting books (also known as “ledgers”) and categorize transactions (also known as “transaction coding”) where required. Data is fed to this management dashboard through a plethora of web services that are maintained by various teams within the organization.
+
+The management dashboard comprises of a front-end shell that deals with everything that runs on the browser, as well as a backend service that acts as a data aggregation and caching service, used exclusively by the front-end.
+
+In our team, we have adopted practices such as Continuous Integration (CI), Continuous Deployment (CD), Trunk-based Development and Test-Driven Development to help us deliver working software quickly and safely.
+
+Given that we practice elephant carpaccio during story slicing and work mainly in a mob or as pairs, we found Release Toggles to be less useful. Instead, we adopted the Feature Branching approach when developing new features. With Feature Branching, we are able to make multiple commits while working on the feature, without generating excessive noise in GIT. As we squash our commits with links back to the original feature branch, GitHub allow us the ability to rid the feature branch, while still being able to look back at those micro-commits.
+
+The two toggles that we used were &lt;strong&gt;Operations Toggles&lt;/strong&gt;, and &lt;strong&gt;Permission Toggles&lt;/strong&gt;.
+
+As a downstream service that depends on many other services for data, the ball is seldom in our courts. Each of these services that we depend on for data, is usually built and operated by different teams, and has varying performance thresholds.
+
+Operation Toggles has been especially effective; offering us the capability to gracefully degrade or disable calls to these dependent services in the event that the business dashboard or any of it downstream services experience a traffic surge resulting in undesirable system performances and/or behaviors.
+
+Given that this services doesn’t have to be highly dynamic, we developed a simple setup that required little to no maintenance. Backed by an AWS S3 bucket to store a static configuration and a CloudFront Distribution to deliver the configuration payload, this infrastructure cost us close to nothing to operate.
+
+In order to better understand if features were developed and delivered in a way that actually increases the productivity and effectiveness of our users, we have also introduced beta programs to get early feedback before a feature is released to the entire user base.
+
+Given that this service needs to be able to form toggle configurations dynamically based on a user’s profile, locality and many other factors, a highly dynamic service is required. Leading vendors that offers such services include FeatureAvailability.IO, Launch Darkly, and Split.IO. Given that these services usually offer very similar feature offerings and pricing, decisions usually boils down to product roadmaps, and quality of support. Flagr and Petri are two popular open source options that can be downloaded and self-hosted.
+
+Commercially operated solutions typically charge based on a per-request model; hence implementing on stateless functions (e.g. AWS Lamda) can be costly given that caching of this state is not possible. Feature Toggle states are usually cached for up to a minute within an application to reduce the chattiness between the application and the Feature Toggle service.
+&lt;h3&gt;Feature Toggle Best Practices&lt;/h3&gt;
+Feature Toggling is a useful technique that helps team avoid painful merge conflicts, experiment and learn fast; however not without risks. Here are some of my lessons learnt and best practices:
+
+&lt;strong&gt;Business Metric and Traffic Monitoring Dashboard&lt;/strong&gt;
+A key benefit of Feature Toggling is the ability to perform experiments and learn from feedback, quickly and safely. Hence having a business metric dashboard is of high importance, allowing us to understand the business impact of a new feature. Consider an e-commerce system; if the introduction of a new feature results in massive decrease in sales, that is something that is probably a useful feedback that is worth looking into in greater detail.
+
+&lt;strong&gt;Avoid Using Release Toggles&lt;/strong&gt;
+As Martin Fowler has put it, while release toggles is a useful technique that is used by many teams, they should be used as a last option when putting new features into production. Instead, we should be adopting the practice of breaking features down more so that they can be safely introduced into the product. The benefit of doing so is synonymous with that of any strategy advocating small and frequent releases. Risks can be reduced and development teams can get early feedback that can be used to improve the feature.
+
+&lt;strong&gt;Avoid Coupling Decision Point and Toggle Router&lt;/strong&gt;
+Decision point is defined as the location in the code that calls the toggle router, while the Toggle router contains the logic to check if a certain decision point is active by reading toggling configurations to detect features, or simply detect an Toggle Context.
+&lt;pre&gt;if(User == “john@doe.com” &amp;amp;&amp;amp; Weather == “Sunny”){
+      DoSomething();
+}&lt;/pre&gt;
+&lt;pre&gt;if(User.Segment == “Beta”){
+      DoSomething();
+}&lt;/pre&gt;
+The two examples above exemplifies patterns we want to avoid, as they tightly couple toggles decisions into the application logic.
+&lt;pre&gt;if(FeatureSwitchSvc.IsPsychicEnabled){
+      DoSomething();
+}&lt;/pre&gt;
+What we want instead, is to de-couple decision points from decision logic by introducing a decision object that implements that logic. In this way, the strategy-pattern can be applied, encapsulating routing conditions to the routing layer. Thus a change in feature grouping will not break the code.
+
+&lt;strong&gt;Avoid Nesting Feature Toggles&lt;/strong&gt;
+If nesting if-statements increases the cyclomatic complexity; nesting Feature Toggles increases that by many folds.
+
+&lt;strong&gt;Dashboard with Feature Toggles Longevity&lt;/strong&gt;
+Like branches, long-lived feature toggles should be avoided as it adds significant complexity to the application and causes the code-base to be brittle over time. While it is easy to visualize how many stale branches you have in Github, long-lived feature toggles are less obvious and runs the risks of snuggling in forever. Hence a physical or digital dashboard in the team area that keeps track of the longevity of each Feature Toggle is always a good practice.
+
+&lt;strong&gt;Always Check for Security&lt;/strong&gt;
+One of the common misconceptions is that if you hide a feature behind a feature flag, it is not accessible and hence we do not have to worry about security. This is untrue and a dangerous mindset to have in software development; a phenomenal known as &quot;the security sandwich&quot;. Consider a feature toggle implemented on the front-end. What is stopping a malicious user from manually setting that flag to true in the console? Security as an afterthought is always recipe for trouble.
+
+&lt;strong&gt;Automated Tests Should Exercise Both Toggle On and Off States&lt;/strong&gt;
+If TDD is practiced in the team, it is always a good habit to practice red-green-refactor. When implementing feature toggles, it is always important that automated tests exercise flows with the switch turned on, and off, to avoid regressions. While this is not a silver bullet, it helps radiate obvious regressions. The added complexity in testing introduced by feature toggles warrants reviewing existing test strategies; constant and effective communication between between members of the development team is also important.
+
+
+&lt;pre&gt;This article was first published in the &lt;a href=&quot;https://web.archive.org/web/20180624072619/https://pragprog.com/news/node-js-8-the-right-way-practical-server-side-javascript-that-scales-in-print-january-pragpub&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Jan 2018 issue&lt;/a&gt; of &lt;a href=&quot;https://theprosegarden.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Pragmatic Publications Magazine&lt;/a&gt;.&lt;/pre&gt;</content><author><name>sal</name></author><summary type="html">As software professionals, success is measured by our ability to improve our users’ lives.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/feature-toggle.jpg" /></entry><entry><title type="html">Letter Cases in Software Development</title><link href="/letter-cases-in-software-development-code-style/" rel="alternate" type="text/html" title="Letter Cases in Software Development" /><published>2017-10-05T00:00:00+00:00</published><updated>2017-10-05T00:00:00+00:00</updated><id>/letter-cases-in-software-development-code-style</id><content type="html" xml:base="/letter-cases-in-software-development-code-style/">Coding style is a geek topic that developers talk a lot about during coding collaboration interactions. One of the first things that come up, is usually &quot;What case do we use&quot;? I was in such a scenario recently, and thought I dug a little deeper to explore all the options.
+&lt;h3&gt;Camel Case&lt;/h3&gt;
+&lt;a href=&quot;https://en.m.wikipedia.org/wiki/Camel_case&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://en.m.wikipedia.org/wiki/Camel_case&lt;/a&gt;
+
+Practice of writing compound words or phrases such that each word or abbreviation in the middle of the phrase begins with a capital letter, with no intervening spaces or punctuation.
+
+&lt;strong&gt;Examples&lt;/strong&gt;: johnDoe, lastConnectionDate
+&lt;h3&gt;Pascal Case&lt;/h3&gt;
+&lt;a href=&quot;https://en.m.wikipedia.org/wiki/PascalCase&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://en.m.wikipedia.org/wiki/PascalCase&lt;/a&gt;
+
+Practice of writing compound words or phrases such that the first letter of each concatenated word is capitalized.
+
+&lt;strong&gt;Examples&lt;/strong&gt;: JohnDoe, LastConnectionDate
+&lt;h3&gt;Snake Case&lt;/h3&gt;
+&lt;a href=&quot;https://en.m.wikipedia.org/wiki/Snake_case&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://en.m.wikipedia.org/wiki/Snake_case&lt;/a&gt;
+
+Practice of writing compound words or phrases in which the elements are separated with one underscore character (_) and no spaces.
+
+&lt;strong&gt;Examples&lt;/strong&gt;: john_doe, last_connection_date
+&lt;h3&gt;Kebab Case&lt;/h3&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Letter_case#Special_case_styles&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://en.wikipedia.org/wiki/Letter_case#Special_case_styles&lt;/a&gt;
+
+Practice of writing compound words or phrases in which the elements are separated with one dash character (-) and no spaces.
+
+&lt;strong&gt;Examples&lt;/strong&gt;: John-doe, Last-connection-date
+&lt;h3&gt;Train Case&lt;/h3&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Letter_case#Special_case_styles&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://en.wikipedia.org/wiki/Letter_case#Special_case_styles&lt;/a&gt;
+
+Practice of writing compound words or phrases in which the elements are separated with one dash character (-), no spaces and every word capitalized.
+
+&lt;strong&gt;Examples&lt;/strong&gt;: John-Doe, Last-Connection-Date</content><author><name>sal</name></author><summary type="html">Coding style is a geek topic that developers talk a lot about during coding collaboration interactions. One of the first things that come up, is usually &quot;What case do we use&quot;? I was in such a scenario recently, and thought I dug a little deeper to explore all the options. Camel Case https://en.m.wikipedia.org/wiki/Camel_case</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/text-cases.jpg" /></entry></feed>
