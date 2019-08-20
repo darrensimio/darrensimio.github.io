@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-20T23:20:15+00:00</updated><id>/feed.xml</id><title type="html">Darren Sim</title><subtitle>Tech Lead, Developer, Speaker &amp; Author in New Zealand</subtitle><entry><title type="html">Tips for Running a Code Kata (Developer Dojo) at the Workplace</title><link href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/" rel="alternate" type="text/html" title="Tips for Running a Code Kata (Developer Dojo) at the Workplace" /><published>2018-07-14T00:00:00+00:00</published><updated>2018-07-14T00:00:00+00:00</updated><id>/tips-for-running-a-code-kata-developer-dojo-at-the-workplace</id><content type="html" xml:base="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">&lt;h2 id=&quot;what-is-a-code-kata&quot;&gt;What is a Code Kata?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-20T23:33:55+00:00</updated><id>/feed.xml</id><title type="html">Darren Sim</title><subtitle>Tech Lead, Developer, Speaker &amp; Author in New Zealand</subtitle><entry><title type="html">Tips for Running a Code Kata (Developer Dojo) at the Workplace</title><link href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/" rel="alternate" type="text/html" title="Tips for Running a Code Kata (Developer Dojo) at the Workplace" /><published>2018-07-14T00:00:00+00:00</published><updated>2018-07-14T00:00:00+00:00</updated><id>/tips-for-running-a-code-kata-developer-dojo-at-the-workplace</id><content type="html" xml:base="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">&lt;h2 id=&quot;what-is-a-code-kata&quot;&gt;What is a Code Kata?&lt;/h2&gt;
 
 &lt;p&gt;A concept borrowed from the Japanese martial arts world, katas are exercises which help practitioners hone their skills through practice and repetition. Over the past decade, katas has been adopted as part of the wider Software Craftsmanship movement, seeing katas introduced as part of leading Software Development and Software Architecture courses around the world.
 Organisations and software teams that embrace this practice has increasingly prioritised time for software practitioners to work on katas together, at a regular cadence. This provides a safe space for teams to &lt;strong&gt;experiment new practices&lt;/strong&gt;, &lt;strong&gt;hone new skills&lt;/strong&gt;, &lt;strong&gt;challenge assumptions&lt;/strong&gt; and &lt;strong&gt;work with team members they do not usually interact with&lt;/strong&gt;.&lt;/p&gt;
@@ -244,7 +244,87 @@ One of the common misconceptions is that if you hide a feature behind a feature 
 If TDD is practiced in the team, it is always a good habit to practice red-green-refactor. When implementing feature toggles, it is always important that automated tests exercise flows with the switch turned on, and off, to avoid regressions. While this is not a silver bullet, it helps radiate obvious regressions. The added complexity in testing introduced by feature toggles warrants reviewing existing test strategies; constant and effective communication between between members of the development team is also important.
 
 
-&lt;pre&gt;This article was first published in the &lt;a href=&quot;https://web.archive.org/web/20180624072619/https://pragprog.com/news/node-js-8-the-right-way-practical-server-side-javascript-that-scales-in-print-january-pragpub&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Jan 2018 issue&lt;/a&gt; of &lt;a href=&quot;https://theprosegarden.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Pragmatic Publications Magazine&lt;/a&gt;.&lt;/pre&gt;</content><author><name>sal</name></author><summary type="html">As software professionals, success is measured by our ability to improve our users’ lives.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/feature-toggle.jpg" /></entry><entry><title type="html">Letter Cases in Software Development</title><link href="/letter-cases-in-software-development-code-style/" rel="alternate" type="text/html" title="Letter Cases in Software Development" /><published>2017-10-05T00:00:00+00:00</published><updated>2017-10-05T00:00:00+00:00</updated><id>/letter-cases-in-software-development-code-style</id><content type="html" xml:base="/letter-cases-in-software-development-code-style/">Coding style is a geek topic that developers talk a lot about during coding collaboration interactions. One of the first things that come up, is usually &quot;What case do we use&quot;? I was in such a scenario recently, and thought I dug a little deeper to explore all the options.
+&lt;pre&gt;This article was first published in the &lt;a href=&quot;https://web.archive.org/web/20180624072619/https://pragprog.com/news/node-js-8-the-right-way-practical-server-side-javascript-that-scales-in-print-january-pragpub&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Jan 2018 issue&lt;/a&gt; of &lt;a href=&quot;https://theprosegarden.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Pragmatic Publications Magazine&lt;/a&gt;.&lt;/pre&gt;</content><author><name>sal</name></author><summary type="html">As software professionals, success is measured by our ability to improve our users’ lives.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/feature-toggle.jpg" /></entry><entry><title type="html">Setting up a Basic .NET Core Developer Environment with VSCode, xUnit and Moq on macOS</title><link href="/setting-up-a-basic-net-core-developer-environment-with-vscode-nunit-and-moq-on-macos/" rel="alternate" type="text/html" title="Setting up a Basic .NET Core Developer Environment with VSCode, xUnit and Moq on macOS" /><published>2017-10-19T00:00:00+00:00</published><updated>2017-10-19T00:00:00+00:00</updated><id>/setting-up-a-basic-net-core-developer-environment-with-vscode-nunit-and-moq-on-macos</id><content type="html" xml:base="/setting-up-a-basic-net-core-developer-environment-with-vscode-nunit-and-moq-on-macos/">I've recently been kept awake late into the wee hours; working on really interesting code challenges on &lt;a href=&quot;https://www.codewars.com/users/darrensimsg/&quot;&gt;Code Wars&lt;/a&gt;. While the problems are really fun to solve, one of the pains I found was to code on the web editor, which lacks the usual code editor features that I am comfortable with. Reluctant to load up the battery-draining Windows Virtual Machine just for this, I thought &quot;&lt;em&gt;Why not let me just create a simple boiler plate project in .NET Core that supports xUnit, which I can readily work on using VSCode on my macOS?&lt;/em&gt;&quot;
+&lt;h3&gt;Language &amp; Frameworks&lt;/h3&gt;
+&lt;strong&gt;What is .NET Core?&lt;/strong&gt;
+
+.NET Core is the cross-platform version of .NET Framework (at the layer of the Base Class Libraries) that is &lt;a href=&quot;https://www.microsoft.com/net/core/support/&quot;&gt;officially supported&lt;/a&gt; my Microsoft, running on Windows, macOS, and Linux. Languages supported includes C#, Visual Basic and F#.
+
+.NET Core is made up of FOUR primary components:
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;a href=&quot;https://github.com/dotnet/coreclr&quot;&gt;.NET Core Runtime&lt;/a&gt; (also known as CoreCLR)&lt;/li&gt;
+ 	&lt;li&gt;&lt;a href=&quot;https://github.com/dotnet/corefx&quot;&gt;Framework libraries&lt;/a&gt; (also known as CoreFX)&lt;/li&gt;
+ 	&lt;li&gt;&lt;a href=&quot;https://github.com/dotnet/cli&quot;&gt;SDK tools&lt;/a&gt; (made up of the Cli and Roslyn language compiler)&lt;/li&gt;
+ 	&lt;li&gt;App Host, which is used to launch .NET Core Apps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;em&gt;(I will eventually be doing a couple of deep dive post on .NET Core in the near future)&lt;/em&gt;&lt;strong&gt;What is the current version?&lt;/strong&gt;
+
+The current version of &lt;em&gt;&lt;strong&gt;.NET Core is version 2.0&lt;/strong&gt;&lt;/em&gt;, which was shipped on August 14, 2017. The next version of the framework &lt;em&gt;&lt;strong&gt;.NET Core 2.1&lt;/strong&gt;&lt;/em&gt; is expected to ship in the first quarter of 2018.
+
+The easiest way to find out what version of .NET Core you have installed is to enter this command into your terminal &lt;code&gt;dotnet --version&lt;/code&gt;. If terminal responds with something like &lt;code&gt;command not found: dotnet&lt;/code&gt;, that probably means you do not have .NET Core installed, or it's PATH has not been setup.
+
+&lt;strong&gt;Installing .NET Core 2.x on macOS&lt;/strong&gt;
+
+In order to install .NET Core 2.x on macOS, you need to be on macOS 10.12 &quot;Sierra&quot; or later versions. The best way to install .NET Core 2.x is to use the installer that's available for free, via &lt;a href=&quot;https://www.microsoft.com/net/core#macos&quot;&gt;https://www.microsoft.com/net/core#macos&lt;/a&gt;.
+
+The installer will install the latest stable version of .NET Core SDK along with the tools, setting up the necessary PATH, that makes it easy for you to simply run the &lt;code&gt;dotnet&lt;/code&gt; command from the console.
+&lt;h3&gt;Visual Studio Code&lt;/h3&gt;
+Many who have worked with Visual Studio would be left with the impression that anything Visual Studio will be &quot;bloated&quot; and &quot;slow&quot;. Like many, I was hesitant to even install Visual Studio Code (also known as VSCode, a free and open sourced code editor by Microsoft) initially, passing it off as a glorified notepad app.
+
+I eventually took the plunge; I've not had any regrets since! VS Code is amazingly lightweight, fast and powerful.
+
+Based on the &lt;a href=&quot;https://electron.atom.io/&quot;&gt;electron framework&lt;/a&gt;, VS Code is in essence, a Node.js app, powered by a large repository of largely community contributed &lt;a href=&quot;https://marketplace.visualstudio.com/VSCode&quot;&gt;add-ons&lt;/a&gt; (called extensions). Based the &lt;a href=&quot;https://github.com/Microsoft/monaco-editor&quot;&gt;monaco editor&lt;/a&gt; (an open source browser based code editor by Microsoft), VSCode comes with IntelliSense, git support, and debugging built-in.
+
+VSCode is available for free, and runs on Windows, Linux and macOS.
+
+&lt;strong&gt;Installing VS Code on macOS&lt;/strong&gt;
+
+The two most popular ways of installing VSCode on the macOS are via &lt;code&gt;brew cask install visual-studio-code&lt;/code&gt;, or &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;simply downloading the executable&lt;/a&gt;.
+&lt;h3&gt;Creating a Basic C# Project with Unit Test&lt;/h3&gt;
+&lt;strong&gt;Create a new .net console project&lt;/strong&gt;&lt;code&gt;dotnet new console&lt;/code&gt;&lt;strong&gt;Resolve the build assets&lt;/strong&gt;&lt;code&gt;dotnet restore&lt;/code&gt;
+A required step in .NET Core 1.x, this step is not required starting with .NET Core 2.0.
+
+Starting with .NET Core 2.0, &lt;code&gt;dotnet restore&lt;/code&gt; executes automatically when a new project is created. It is also run implicitly as part of &lt;code&gt;dotnet build&lt;/code&gt; or &lt;code&gt;dotnet run&lt;/code&gt;.
+
+&lt;strong&gt;Adding support for Debugging in VSCode&lt;/strong&gt;
+If you are lucky, Visual Studio Code will prompt you with the following message: &quot;Required assets to build and debug are missing from 'c-sharp-quickstart'. Add them?&quot;. Click &quot;Yes&quot;.
+
+What this does, is that it creates two files (&lt;a href=&quot;https://github.com/darrensimsg/c-sharp-quickstart/blob/master/.vscode/tasks.json&quot;&gt;tasks.json&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/darrensimsg/c-sharp-quickstart/blob/master/.vscode/launch.json&quot;&gt;launch.json&lt;/a&gt;) in the &lt;code&gt;.vscode&lt;/code&gt; folder. More information on what these two files does, can be found on the &lt;a href=&quot;https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md&quot;&gt;Omnisharp help page&lt;/a&gt;.
+
+&lt;strong&gt;Add Unit Testing Frameworks&lt;/strong&gt;&lt;code&gt;dotnet add package xunit``dotnet add package moq&lt;/code&gt;
+
+Doing so will add packages references the latest versions of xUnit and Moq to your &lt;code&gt;.csproj&lt;/code&gt; files; represented by the following configurations.
+
+[code language=&quot;plain&quot;]
+[/code]
+
+In order for xUnit to be used conveniently, an additional line of configuration needs to be added to the &lt;code&gt;.csproj&lt;/code&gt; file as follows:
+
+[code language=&quot;plain&quot;]
+```What we just did was to add a new .NET CLI Tool reference to dotnet-xunit, allowing us to execute the following command in the terminal.
+
+[/code]
+
+dotnet restore
+dotnet xunit
+
+[code language=&quot;plain&quot;]
+
+_NOTE: At the time of writing, nUnit does not support .NET Core out of the box._
+
+### Github Repository
+
+For my convenience, I have maintained a _**quick-start C# project**_ on Github, that allows me to get started right away simply by forking the repository. This is accessible via [https://github.com/darrensimsg/c-sharp-quickstart/](https://github.com/darrensimsg/c-sharp-quickstart/).
+
+### Useful Keyboard Shortcuts
+
+As a developer, I found keyboard shortcuts to have increased my productivity significantly. I've recently started taking notes on [keyboard shortcuts](http://darrensim.io/posts/mac-keyboard-shortcuts-for-developers/) that I consider useful; on top of my notes on [useful GIT commands](http://darrensim.io/posts/notes-on-useful-git-commands/).
+
+### Further Readings
+
+* [https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code)
+* [http://asp.net-hacker.rocks/2017/03/31/unit-testing-with-dotnetcore.html](http://asp.net-hacker.rocks/2017/03/31/unit-testing-with-dotnetcore.html)
+[/code]</content><author><name>sal</name></author><summary type="html">I've recently been kept awake late into the wee hours; working on really interesting code challenges on Code Wars. While the problems are really fun to solve, one of the pains I found was to code on the web editor, which lacks the usual code editor features that I am comfortable with. Reluctant to load up the battery-draining Windows Virtual Machine just for this, I thought &quot;Why not let me just create a simple boiler plate project in .NET Core that supports xUnit, which I can readily work on using VSCode on my macOS?&quot; Language &amp; Frameworks What is .NET Core?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/vs-code-moq-unit-test.jpg" /></entry><entry><title type="html">Letter Cases in Software Development</title><link href="/letter-cases-in-software-development-code-style/" rel="alternate" type="text/html" title="Letter Cases in Software Development" /><published>2017-10-05T00:00:00+00:00</published><updated>2017-10-05T00:00:00+00:00</updated><id>/letter-cases-in-software-development-code-style</id><content type="html" xml:base="/letter-cases-in-software-development-code-style/">Coding style is a geek topic that developers talk a lot about during coding collaboration interactions. One of the first things that come up, is usually &quot;What case do we use&quot;? I was in such a scenario recently, and thought I dug a little deeper to explore all the options.
 &lt;h3&gt;Camel Case&lt;/h3&gt;
 &lt;a href=&quot;https://en.m.wikipedia.org/wiki/Camel_case&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://en.m.wikipedia.org/wiki/Camel_case&lt;/a&gt;
 
