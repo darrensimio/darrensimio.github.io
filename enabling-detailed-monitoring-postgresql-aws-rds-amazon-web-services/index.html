@@ -4,18 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Darren Sim | Tech Lead, Developer, Speaker & Author in New Zealand</title>
+    <title>Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS) | Darren Sim</title>
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Homepage of darrensimio.github.io | Darren Sim</title>
+<title>Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS) | Darren Sim</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Homepage of darrensimio.github.io" />
+<meta property="og:title" content="Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)" />
+<meta name="author" content="sal" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Tech Lead, Developer, Speaker &amp; Author in New Zealand" />
-<meta property="og:description" content="Tech Lead, Developer, Speaker &amp; Author in New Zealand" />
+<meta name="description" content="In micro-service implementations where servers are treated as disposable kettles rather than pets, the data-store (usually an RDS insurance on AWS) becomes ever more important; it’s the single source of truth for the application." />
+<meta property="og:description" content="In micro-service implementations where servers are treated as disposable kettles rather than pets, the data-store (usually an RDS insurance on AWS) becomes ever more important; it’s the single source of truth for the application." />
 <meta property="og:site_name" content="Darren Sim" />
+<meta property="og:image" content="/assets/images/posts/aws-rds-postresql.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-12-08T00:00:00+00:00" />
 <script type="application/ld+json">
-{"description":"Tech Lead, Developer, Speaker &amp; Author in New Zealand","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/darren-sim-icon-80.png"}},"@type":"WebSite","url":"/","headline":"Homepage of darrensimio.github.io","name":"Darren Sim","@context":"http://schema.org"}</script>
+{"description":"In micro-service implementations where servers are treated as disposable kettles rather than pets, the data-store (usually an RDS insurance on AWS) becomes ever more important; it’s the single source of truth for the application.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/darren-sim-icon-80.png"},"name":"sal"},"@type":"BlogPosting","url":"/enabling-detailed-monitoring-postgresql-aws-rds-amazon-web-services/","headline":"Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)","dateModified":"2017-12-08T00:00:00+00:00","datePublished":"2017-12-08T00:00:00+00:00","image":"/assets/images/posts/aws-rds-postresql.png","mainEntityOfPage":{"@type":"WebPage","@id":"/enabling-detailed-monitoring-postgresql-aws-rds-amazon-web-services/"},"author":{"@type":"Person","name":"sal"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -44,7 +48,7 @@
 
 </head>
 
-<body class=" homefirstpage ">
+<body class="">
 
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -99,27 +103,27 @@ var documents = [{
     "id": 2,
     "url": "/author-sal.html",
     "title": "Sal",
-    "body": "                        Sal Follow:         https://darrensim. io         Documenting my learning journey as a technologist &amp; people leader.                                   Posts by Sal:                   		Tips for Running a Code Kata (Developer Dojo) at the Workplace	: 		  What is a Code Kata?	 			In 				Code Kata, 				Software Craftsmanship, 								Jul 14, 2018						            		Introduction to Feature Toggles and Implementation Best Practices	: 		  As software professionals, success is measured by our ability to improve our users’ lives. 	 			In 				Feature Toggle, 				Software Release, 								Jun 24, 2018						            		Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)	: 		  In micro-service implementations where servers are treated as disposable kettles rather than pets, the data-store (usually an RDS insurance on AWS) becomes ever more important; it's t. . . 	 			In 				AWS, 								Dec 08, 2017						            		Security Vulnerability and Browser Performance Impact of target=&#8221;_blank&#8221;	: 		  The anchor tag has been around in the HTML standards for over 20 years, and has been the defecto standard for implementing in-page navigations, as well as navigations beyond the page. . . 	 			In 				Security, 								Nov 11, 2017						            		Setting up a Basic . NET Core Developer Environment with VSCode, xUnit and Moq on macOS	: 		  I've recently been kept awake late into the wee hours; working on really interesting code challenges on Code Wars. While the problems are really fun to solve, one of the pains I found. . . 	 			In 				Language &amp; Frameworks, 								Oct 19, 2017						            		Letter Cases in Software Development	: 		  Coding style is a geek topic that developers talk a lot about during coding collaboration interactions. One of the first things that come up, is usually  What case do we use ? I was i. . . 	 			In 				Code Style, 								Oct 05, 2017						        "
+    "body": "                        {{page. title}} Follow:         {{ site. authors. sal. site }}         {{ site. authors. sal. bio }}                                   Posts by {{page. title}}:       {% assign posts = site. posts | where: author , sal  %}      {% for post in posts %}      {% include main-loop-card. html %}      {% endfor %}  "
     }, {
     "id": 3,
     "url": "/authors-list.html",
     "title": "Authors",
-    "body": "Authors:                                             Darren Sim :       (View Posts)      Documenting my learning journey as a technologist &amp; people leader.                           &nbsp;       &nbsp;                                      "
+    "body": "{{page. title}}:     {% for author in site. authors %}                                         {{ author[1]. name }} :       (View Posts)      {{ author[1]. bio }}                          &nbsp;       &nbsp;                                    {% endfor %}  "
     }, {
     "id": 4,
     "url": "/categories.html",
     "title": "Categories",
-    "body": "          Categories               Code Style:                                  		Letter Cases in Software Development	: 		  Coding style is a geek topic that developers talk a lot about during coding collaboration interactions. One of the first things that come up, is usually  What case do we use ? I was i. . . 	 			In 				Code Style, 								Oct 05, 2017						                              Language &amp; Frameworks:                                  		Setting up a Basic . NET Core Developer Environment with VSCode, xUnit and Moq on macOS	: 		  I've recently been kept awake late into the wee hours; working on really interesting code challenges on Code Wars. While the problems are really fun to solve, one of the pains I found. . . 	 			In 				Language &amp; Frameworks, 								Oct 19, 2017						                              Security:                                  		Security Vulnerability and Browser Performance Impact of target=&#8221;_blank&#8221;	: 		  The anchor tag has been around in the HTML standards for over 20 years, and has been the defecto standard for implementing in-page navigations, as well as navigations beyond the page. . . 	 			In 				Security, 								Nov 11, 2017						                              AWS:                                  		Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)	: 		  In micro-service implementations where servers are treated as disposable kettles rather than pets, the data-store (usually an RDS insurance on AWS) becomes ever more important; it's t. . . 	 			In 				AWS, 								Dec 08, 2017						                              Feature Toggle:                                  		Introduction to Feature Toggles and Implementation Best Practices	: 		  As software professionals, success is measured by our ability to improve our users’ lives. 	 			In 				Feature Toggle, 				Software Release, 								Jun 24, 2018						                              Software Release:                                  		Introduction to Feature Toggles and Implementation Best Practices	: 		  As software professionals, success is measured by our ability to improve our users’ lives. 	 			In 				Feature Toggle, 				Software Release, 								Jun 24, 2018						                              Code Kata:                                  		Tips for Running a Code Kata (Developer Dojo) at the Workplace	: 		  What is a Code Kata?	 			In 				Code Kata, 				Software Craftsmanship, 								Jul 14, 2018						                              Software Craftsmanship:                                  		Tips for Running a Code Kata (Developer Dojo) at the Workplace	: 		  What is a Code Kata?	 			In 				Code Kata, 				Software Craftsmanship, 								Jul 14, 2018						                                             Featured:    				                  "
+    "body": "          Categories          {% for category in site. categories %}     {{ category[0] }}:           {% assign pages_list = category[1] %}    {% for post in pages_list %}    {% if post. title != null %}     {% if group == null or group == post. group %}           {% include main-loop-card. html %}     {% endif %}    {% endif %}    {% endfor %}    {% assign pages_list = nil %}    {% assign group = nil %}    {% endfor %}                  {% include sidebar-featured. html %}          "
     }, {
     "id": 5,
     "url": "/contact.html",
     "title": "Contact",
-    "body": "  Please send your message to Darren Sim. We will reply as soon as possible!   "
+    "body": "  Please send your message to {{site. name}}. We will reply as soon as possible!   "
     }, {
     "id": 6,
     "url": "/",
     "title": "Homepage of darrensimio.github.io",
-    "body": "                                  Tips for Running a Code Kata (Developer Dojo) at the Workplace  :       What is a Code Kata?               In                 Code Kata,                 Software Craftsmanship,                                        Jul 14, 2018                                                                                                                             Introduction to Feature Toggles and Implementation Best Practices          :                       In                         Feature Toggle,                         Software Release,                                                                  Jun 24, 2018                                                                                                                                     Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)          :                       In                         AWS,                                                                  Dec 08, 2017                                                                                                                                    Security Vulnerability and Browser Performance Impact of target=&#8221;_blank&#8221;          :                       In                         Security,                                                                  Nov 11, 2017                                                       All Stories:                   		Tips for Running a Code Kata (Developer Dojo) at the Workplace	: 		  What is a Code Kata?	 			In 				Code Kata, 				Software Craftsmanship, 								Jul 14, 2018						                  		Introduction to Feature Toggles and Implementation Best Practices	: 		  As software professionals, success is measured by our ability to improve our users’ lives. 	 			In 				Feature Toggle, 				Software Release, 								Jun 24, 2018						                  		Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)	: 		  In micro-service implementations where servers are treated as disposable kettles rather than pets, the data-store (usually an RDS insurance on AWS) becomes ever more important; it's t. . . 	 			In 				AWS, 								Dec 08, 2017						                  		Security Vulnerability and Browser Performance Impact of target=&#8221;_blank&#8221;	: 		  The anchor tag has been around in the HTML standards for over 20 years, and has been the defecto standard for implementing in-page navigations, as well as navigations beyond the page. . . 	 			In 				Security, 								Nov 11, 2017						                  		Setting up a Basic . NET Core Developer Environment with VSCode, xUnit and Moq on macOS	: 		  I've recently been kept awake late into the wee hours; working on really interesting code challenges on Code Wars. While the problems are really fun to solve, one of the pains I found. . . 	 			In 				Language &amp; Frameworks, 								Oct 19, 2017						                  		Letter Cases in Software Development	: 		  Coding style is a geek topic that developers talk a lot about during coding collaboration interactions. One of the first things that come up, is usually  What case do we use ? I was i. . . 	 			In 				Code Style, 								Oct 05, 2017						                                                  Featured:    				              "
+    "body": "  {% if page. url ==  /  %}            {% assign latest_post = site. posts[0] %}          &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image contains  ://  %}{{ latest_post. image }}{% else %} {{site. baseurl}}/{{ latest_post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;           {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                                {{ latest_post. date | date: '%b %d, %Y' }}                            {%- assign second_post = site. posts[1] -%}                        {% if second_post. image %}                         &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;                        {% endif %}                                    {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                                      {{ second_post. date | date: '%b %d, %Y' }}                                    {%- assign third_post = site. posts[2] -%}                        {% if third_post. image %}                         &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;                        {% endif %}                                    {{ third_post. title }}          :                       In             {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                                      {{ third_post. date | date: '%b %d, %Y' }}                                    {%- assign fourth_post = site. posts[3] -%}                        {% if fourth_post. image %}                        &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;                        {% endif %}                                    {{ fourth_post. title }}          :                       In             {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                                      {{ fourth_post. date | date: '%b %d, %Y' }}                                  {% for post in site. posts %} {% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More            	             {% endif %}{% endfor %}  {% endif %}                All Stories:         {% for post in paginator. posts %}          {% include main-loop-card. html %}        {% endfor %}                   {% if paginator. total_pages &gt; 1 %}              {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}                     {% include sidebar-featured. html %}      "
     }, {
     "id": 7,
     "url": "/privacy-policy.html",
@@ -247,369 +251,385 @@ function lunr_search(term) {
 
     <!-- Content -->
     <main role="main" class="site-content">
-        <div class="container">
-    
-
-    
-    
-    
-<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
-<div class="row remove-site-content-margin">
-    
-    <!-- latest post -->
-    
-    <div class="col-md-6">
-    <div class="card border-0 mb-4 box-shadow">   
-    <a href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">
-    <div class="topfirstimage" style="background-image: url( /assets/images/posts/coding-dojo.jpg); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
-    </a>
-    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
-    <h2 class="h4 font-weight-bold">
-    <a class="text-dark" href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">Tips for Running a Code Kata (Developer Dojo) at the Workplace</a>
-    </h2>
-    <p class="excerpt">
-        What is a Code Kata?
-    </p>
-    <div>
-        <small class="d-block text-muted">
-            In <span class="catlist">
-                
-                <a class="text-capitalize text-muted smoothscroll" href="/categories.html#code kata">Code Kata</a><span class="sep">, </span>
-                
-                <a class="text-capitalize text-muted smoothscroll" href="/categories.html#software craftsmanship">Software Craftsmanship</a><span class="sep">, </span>
-                
-                </span>                   
-        </small>
-        <small class="text-muted">
-            Jul 14, 2018
-        </small>
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    <div class="col-md-6">
         
-        <!-- second latest post --><div class="mb-3 d-flex align-items-center">                
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-between ">
+				<div class=" col-md-6  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+                        <span class="catlist">
+						
+                          <a class="sscroll text-danger" href="/categories.html#aws">aws</a><span class="sep">, </span>
+                        
+                        </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)</h1>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="/./assets/images/avatar1.jpg" alt="Darren Sim" width="70"/>
+                        
+						<small class="ml-3"> Darren Sim <span><a target="_blank" href="https://twitter.com/darrensimio" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+                            <span class="text-muted d-block mt-1">Dec 08, 2017 · <span class="reading-time">
+  
+  
+    5 mins read
+  
+</span>
+    </span>
+						</small>
+					</div>
+				</div>
                 
-                <div class="col-md-4">
-                <a href="/introduction-to-feature-toggles-and-implementation-best-practices/">
-                 <img class="w-100" src="/assets/images/posts/feature-toggle.jpg" alt="Introduction to Feature Toggles and Implementation Best Practices">
-                </a>
-                </div>
-                                
-                <div>
-                    <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="/introduction-to-feature-toggles-and-implementation-best-practices/">Introduction to Feature Toggles and Implementation Best Practices</a>
-                    </h2>
-                    <small class="d-block text-muted">
-                        In <span class="catlist">
-                        
-                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#feature toggle">Feature Toggle</a><span class="sep">, </span>
-                        
-                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#software release">Software Release</a><span class="sep">, </span>
-                        
-                        </span>                   
-                    </small>
-                    <small class="text-muted">
-                        Jun 24, 2018
-                    </small>
-                </div>
+				<div class="col-md-6 pr-0 align-self-center">
+					<img class="rounded" src="/assets/images/posts/aws-rds-postresql.png" alt="Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)">
+				</div>
+                
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        
+        <!-- Share -->
+		<div class="col-lg-2 pr-4 mb-4 col-md-12">
+			<div class="sticky-top sticky-top-offset text-center">
+				<div class="text-muted">
+					Share this
+				</div>
+				<div class="share d-inline-block">
+					<!-- AddToAny BEGIN -->
+					<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+						<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+						<a class="a2a_button_facebook"></a>
+						<a class="a2a_button_twitter"></a>
+					</div>
+					<script async src="https://static.addtoany.com/menu/page.js"></script>
+					<!-- AddToAny END -->
+				</div>
+			</div>
+		</div>
+        
+        
+		<div class="col-md-12 col-lg-8">
+            
+            <!-- Article -->
+			<article class="article-post">                
+			In micro-service implementations where servers are treated as disposable kettles rather than pets, the data-store (usually an RDS insurance on AWS) becomes ever more important; it's the single source of truth for the application.
+
+While this is no longer considered the best practice, the following architecture, was at one time one of the more popular patterns.
+
+<img class="alignnone wp-image-107 size-large" src="http://darrensim.io/wp-content/uploads/2017/10/AWS-Application-Architecture-1024x622.png" alt="" width="1024" height="622" />
+
+Unfortunately, as teams do not usually give a lot of love to their infrastructure post initial setup, this setup is still pretty common.
+
+<h3>Importance of Monitoring the RDS</h3>
+
+Given that a failure of the RDS is the most costly failure in such a setup, system operators (in teams that subscribe to the "you build it, you run it" mindset, this happens to be the Dev team) need to be preempted way ahead of time if there's a potential bottleneck forming, or a resource spike (e.g. CPU) that has the potential to bring the RDS to a crawl, rendering it unavailable.
+
+In the event that a potential bottleneck or resource spike do occur, operators need to be able to have the right information on hand to quickly diagnose the issue and shutdown a bad node making calls to the RDS.
+
+Out of the box, AWS provides the following metrics that are useful for general system health monitoring; enabling enhanced monitoring will offer operators the ability to monitor heuristically and perform diagnostics.
+
+<h3>RDS Basic Monitoring Capabilities</h3>
+
+Basic monitoring comes by default with all RDS installations on AWS; the RDS sends metrics to CloudWatch for each active database instance every minute.
+
+<strong>Metrics Available</strong>
+There are 24 metrics that are tracked in the Amazon RDS Metrics. These include:
+
+[table id=6 /]
+
+Read more on <a href="http://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/rds-metricscollected.html" target="_blank" rel="noopener">http://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/rds-metricscollected.html</a>.
+
+Of these, the FOUR metrics which I strongly recommend wiring up CloudWatch alarms to are <em><strong>CPUUtilization</strong></em>, <em><strong>DatabaseConnections</strong></em>, <em><strong>FreeableMemory</strong></em>, and <em><strong>FreeStorageSpace</strong></em>.
+
+<h3>Case for Detailed Monitoring</h3>
+
+One of the key difference between default CloudWatch monitoring, and Enhanced monitoring for RDS is, CloudWatch gathers metrics about CPU utilization <strong><em>from the hypervisor</em></strong> for a DB instance, while Enhanced Monitoring gathers its metrics <strong><em>from an agent on the instance</em></strong>.
+
+On top of receiving faster feedback <em>(1 second granularity)</em> through having an agent on the instance, having an agent on the instance also brings about enhanced monitoring, that allows operators to see how different processes or threads on a DB instance use the CPU.
+
+This is especially useful when operators want to find out which clients (e.g. EC2) are accessing the RDS, and how much CPU and memory utilization each of these clients is generating on the RDS.
+
+<strong>Example Log Entry</strong>
+
+<pre class="lang:default decode:true" title="Example CloudWatch JSON Log">{
+    "engine": "POSTGRES",
+    "instanceID": "INSTANCE_ID",
+    "instanceResourceID": "db-RESOURCE_ID",
+    "timestamp": "2017-10-30T11:17:55Z",
+    "version": 1,
+    "uptime": "1 days, 20:17:10",
+    "numVCPUs": 8,
+    "cpuUtilization": {
+        "guest": 0,
+        "irq": 0.01,
+        "system": 0.26,
+        "wait": 0.26,
+        "idle": 94.31,
+        "user": 0.28,
+        "total": 5.68,
+        "steal": 0.01,
+        "nice": 4.86
+    },
+    "loadAverageMinute": {
+        "fifteen": 0.51,
+        "five": 0.57,
+        "one": 0.62
+    },
+    "memory": {
+        "writeback": 288,
+        "hugePagesFree": 0,
+        "hugePagesRsvd": 0,
+        "hugePagesSurp": 0,
+        "cached": 4805564,
+        "hugePagesSize": 2048,
+        "free": 26788288,
+        "hugePagesTotal": 0,
+        "inactive": 549000,
+        "pageTables": 30344,
+        "dirty": 100,
+        "mapped": 854956,
+        "active": 5059444,
+        "total": 32952096,
+        "slab": 249920,
+        "buffers": 303744
+    },
+    "tasks": {
+        "sleeping": 239,
+        "zombie": 0,
+        "running": 2,
+        "stopped": 0,
+        "total": 241,
+        "blocked": 0
+    },
+    "swap": {
+        "cached": 0,
+        "total": 16383996,
+        "free": 16383996
+    },
+    "network": [
+        {
+            "interface": "eth0",
+            "rx": 150548.8,
+            "tx": 376372.3
+        }
+    ],
+    "diskIO": [
+        {
+            "writeKbPS": 89.6,
+            "readIOsPS": 0,
+            "await": 2.1,
+            "readKbPS": 0,
+            "rrqmPS": 0,
+            "util": 1.96,
+            "avgQueueLen": 0.26,
+            "tps": 12.6,
+            "readKb": 0,
+            "device": "rdsdev",
+            "writeKb": 896,
+            "avgReqSz": 7.11,
+            "wrqmPS": 0,
+            "writeIOsPS": 12.6
+        }
+    ],
+    "fileSys": [
+        {
+            "used": 1530088,
+            "name": "rdsfilesys",
+            "usedFiles": 1788,
+            "usedFilePercent": 0.03,
+            "maxFiles": 6553600,
+            "mountPoint": "/rdsdbdata",
+            "total": 103053476,
+            "usedPercent": 1.48
+        }
+    ],
+    "processList": [
+        {
+            "vss": 1234567,
+            "name": "postgres: user_name service_running 127.0.0.1 idle",
+            "tgid": 4322,
+            "vmlimit": 21222222,
+            "parentID": 1234,
+            "memoryUsedPc": 0.69,
+            "cpuUsedPc": 0.09,
+            "id": 4321,
+            "rss": 226424
+        }
+    ]
+}</pre>
+
+Details on metrics available can be found on <a href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html?shortFooter=true#USER_Monitoring.OS.CloudWatchLogs" target="_blank" rel="noopener">http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html?shortFooter=true#USER_Monitoring.OS.CloudWatchLogs</a>.
+
+As of 2017, detailed monitoring is available for all DB instance classes (except for <code>db.t1.micro</code> and <code>db.m1.small</code>), for the following database engines:
+
+<ul>
+    <li>Amazon Aurora</li>
+    <li>MariaDB</li>
+    <li>Microsoft SQL Server</li>
+    <li>MySQL version 5.5 or later</li>
+    <li>Oracle</li>
+    <li>PostgreSQL</li>
+</ul>
+
+<h3>Enabling Enhanced Monitoring on AWS RDS</h3>
+
+Enabling enhanced monitoring on an AWS RDS instance is really easy. This can be done by toggling the "Enable Enhanced Monitoring" setting on the AWS Management Console to "Yes".
+
+To do this:
+
+<ol>
+    <li>Login to the AWS Management Console</li>
+    <li>Select RDS</li>
+    <li>Click on DB Instances</li>
+    <li>Select the specific instance</li>
+    <li>Click on Instance Actions</li>
+    <li>Select Modify</li>
+</ol>
+
+<img class="alignnone size-full wp-image-105" src="http://darrensim.io/wp-content/uploads/2017/10/RDS-Enhanced-Monitoring-Configuration.png" alt="RDS Enhanced Monitoring Configuration on AWS Management Console" width="540" height="146" />
+
+Within the configuration panel, you will also be able to 1) <em><strong>enable enhanced monitoring</strong></em>, 2) <em><strong>select monitoring role</strong></em>, and 3) <em><strong>select the granularity</strong></em> of the monitoring (in units of 1, 5, 10, 15, 30, 60 seconds).
+
+<strong>Is Maintenance Window Required?</strong>
+
+As this does not require a RDS reboot, the Maintenance Window is not required.
+
+<h3>Cost Impact</h3>
+
+The cost of enabling enhanced monitoring depends on the amount of logs that are written to CloudWatch. The general rule of thumb is the greater the granularity, the more the logs generated, which in turn, results in an increased cost.
+
+AWS CloudWatch offers 5 GB a month for free; there after it is chargeable. Costing structure of AWS CloudWatch can be found on <a href="https://aws.amazon.com/cloudwatch/pricing/" target="_blank" rel="noopener">https://aws.amazon.com/cloudwatch/pricing/</a>. The <a href="https://calculator.s3.amazonaws.com/index.html" target="_blank" rel="noopener">AWS cost calculator</a> is another useful tool for cost estimations on AWS in general.
+
+<h3>Accessing Logs</h3>
+
+Detailed logs generated from enhanced monitoring are stored as JSON format in CloudWatch, accessible via <code>CloudWatch &gt; Log Groups &gt; RDSOSMetrics &gt; [Resource ID]</code>.
+
+<h3>Useful PostgreSQL Queries</h3>
+
+<strong>Total connections made to the PostgreSQL instance</strong>
+
+<pre class="lang:pgsql decode:true" title="Total Connection made to the instances.">SELECT client_addr, application_name, usename, datname, Count(1)
+FROM   pg_stat_activity
+GROUP  BY 1, 2, 3, 4
+ORDER  BY 5 DESC;</pre>
+
+<strong>Only active connections on the PostgreSQL Instance</strong>
+
+<pre class="lang:pgsql decode:true " title="Only the active connection">SELECT client_addr, application_name, usename, datname, Count(1)
+FROM   pg_stat_activity
+WHERE  state &lt;&gt; 'idle'
+GROUP  BY 1, 2, 3, 4
+ORDER  BY 5 DESC;</pre>
+
+&nbsp;                
+			</article>
+			
+			<!-- Tags -->
+			<div class="mb-4">
+				<span class="taglist">
+				
+				</span>
+			</div>
+ 
+            <!-- Mailchimp Subscribe Form -->
+            
+			<div class="border p-5 bg-lightblue">
+				<div class="row justify-content-between">
+					<div class="col-md-6 mb-2 mb-md-0">
+						<h5 class="font-weight-bold">Join Newsletter</h5>
+						 Get the latest news right in your inbox. We never spam!
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+                            <form action="" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate w-100" target="_blank" novalidate>
+                            <div class="mc-field-group">
+							
+								<input type="email" placeholder="Enter e-mail address" name="EMAIL" class="required email form-control w-100" id="mce-EMAIL" autocomplete="on" required>
+							
+							
+								<button type="submit" value="Subscribe" name="subscribe" class="heart btn btn-success btn-block w-100 mt-2">Subscribe</button>
+							
+                            </div>
+                            </form>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+            
+            
+             <!-- Author Box -->
+                				
+				<div class="row mt-5">
+					<div class="col-md-2 align-self-center">
+                         
+                        <img class="rounded-circle" src="/./assets/images/avatar1.jpg" alt="Darren Sim" width="90"/>
+                         
+					</div>
+					<div class="col-md-10">		
+                        <h5 class="font-weight-bold">Written by Darren Sim <span><a target="_blank" href="https://twitter.com/darrensimio" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+						Documenting my learning journey as a technologist & people leader.					
+					</div>
+				</div>				
+                
+            
+            <!-- Comments -->
+            
+                <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = 'demowebsite'; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+            
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+<!-- Aletbar Prev/Next -->
+<div class="alertbar">
+    <div class="container">
+        <div class="row prevnextlinks small font-weight-bold">
+          
+            <div class="col-md-6 rightborder pl-0">
+                <a class="text-dark" href="/security-vulnerability-and-browser-performance-impact-of-target_blank/"> <img height="30px" class="mr-1" src="/assets/images/posts/browser-security.jpg">  Security Vulnerability and Browser Performance Impact of target=&#8221;_blank&#8221;</a>
             </div>
-        
-        <!-- third latest post --><div class="mb-3 d-flex align-items-center">                
-                
-                <div class="col-md-4">
-                <a href="/enabling-detailed-monitoring-postgresql-aws-rds-amazon-web-services/">
-                 <img class="w-100" src="/assets/images/posts/aws-rds-postresql.png" alt="Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)">
-                </a>
-                </div>
-                                
-                <div>
-                    <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="/enabling-detailed-monitoring-postgresql-aws-rds-amazon-web-services/">Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)</a>
-                    </h2>
-                    <small class="d-block text-muted">
-                        In <span class="catlist">
-                        
-                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#aws">AWS</a><span class="sep">, </span>
-                        
-                        </span>                   
-                    </small>
-                    <small class="text-muted">
-                        Dec 08, 2017
-                    </small>
-                </div>
+          
+          
+            <div class="col-md-6 text-right pr-0">
+                <a class="text-dark" href="/introduction-to-feature-toggles-and-implementation-best-practices/"> Introduction to Feature Toggles and Implementation Best Practices  <img height="30px" class="ml-1" src="/assets/images/posts/feature-toggle.jpg"> </a>
             </div>
-        
-        <!-- fourth latest post --><div class="mb-3 d-flex align-items-center">                
-                
-                <div class="col-md-4">
-                <a href="/security-vulnerability-and-browser-performance-impact-of-target_blank/">
-                <img class="w-100" src="/assets/images/posts/browser-security.jpg" alt="Security Vulnerability and Browser Performance Impact of target=&#8221;_blank&#8221;">
-                </a>
-                </div>
-                                
-                <div>
-                    <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="/security-vulnerability-and-browser-performance-impact-of-target_blank/">Security Vulnerability and Browser Performance Impact of target=&#8221;_blank&#8221;</a>
-                    </h2>
-                    <small class="d-block text-muted">
-                        In <span class="catlist">
-                        
-                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#security">Security</a><span class="sep">, </span>
-                        
-                        </span>                   
-                    </small>
-                    <small class="text-muted">
-                        Nov 11, 2017
-                    </small>
-                </div>
-            </div>
-        
-    </div>
-    
-</div>
-    
-<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-    
-
-
- <!--endif page url is / -->
-    
-
-
-<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
-    
-<div class="row mt-3">
-   
-    <div class="col-md-8 main-loop">
-        
-        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
-        
-
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">Tips for Running a Code Kata (Developer Dojo) at the Workplace</a>
-	</h2>
-	<p class="excerpt">
-	   What is a Code Kata?
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#code kata">Code Kata</a><span class="sep">, </span>
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#software craftsmanship">Software Craftsmanship</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Jul 14, 2018
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">
-	<img class="w-100" src="/assets/images/posts/coding-dojo.jpg" alt="Tips for Running a Code Kata (Developer Dojo) at the Workplace">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/introduction-to-feature-toggles-and-implementation-best-practices/">Introduction to Feature Toggles and Implementation Best Practices</a>
-	</h2>
-	<p class="excerpt">
-	   As software professionals, success is measured by our ability to improve our users’ lives.
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#feature toggle">Feature Toggle</a><span class="sep">, </span>
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#software release">Software Release</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Jun 24, 2018
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/introduction-to-feature-toggles-and-implementation-best-practices/">
-	<img class="w-100" src="/assets/images/posts/feature-toggle.jpg" alt="Introduction to Feature Toggles and Implementation Best Practices">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/enabling-detailed-monitoring-postgresql-aws-rds-amazon-web-services/">Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)</a>
-	</h2>
-	<p class="excerpt">
-	   In micro-service implementations where servers are treated as disposable kettles rather than pets, the data-store (usually an RDS insurance on AWS) becomes ever more important; it's t...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#aws">AWS</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Dec 08, 2017
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/enabling-detailed-monitoring-postgresql-aws-rds-amazon-web-services/">
-	<img class="w-100" src="/assets/images/posts/aws-rds-postresql.png" alt="Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/security-vulnerability-and-browser-performance-impact-of-target_blank/">Security Vulnerability and Browser Performance Impact of target=&#8221;_blank&#8221;</a>
-	</h2>
-	<p class="excerpt">
-	   The anchor tag  has been around in the HTML standards for over 20 years, and has been the defecto standard for implementing in-page navigations, as well as navigations beyond the page...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#security">Security</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Nov 11, 2017
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/security-vulnerability-and-browser-performance-impact-of-target_blank/">
-	<img class="w-100" src="/assets/images/posts/browser-security.jpg" alt="Security Vulnerability and Browser Performance Impact of target=&#8221;_blank&#8221;">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/setting-up-a-basic-net-core-developer-environment-with-vscode-nunit-and-moq-on-macos/">Setting up a Basic .NET Core Developer Environment with VSCode, xUnit and Moq on macOS</a>
-	</h2>
-	<p class="excerpt">
-	   I've recently been kept awake late into the wee hours; working on really interesting code challenges on Code Wars. While the problems are really fun to solve, one of the pains I found...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#language & frameworks">Language & Frameworks</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Oct 19, 2017
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/setting-up-a-basic-net-core-developer-environment-with-vscode-nunit-and-moq-on-macos/">
-	<img class="w-100" src="/assets/images/posts/vs-code-moq-unit-test.jpg" alt="Setting up a Basic .NET Core Developer Environment with VSCode, xUnit and Moq on macOS">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-            <div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/letter-cases-in-software-development-code-style/">Letter Cases in Software Development</a>
-	</h2>
-	<p class="excerpt">
-	   Coding style is a geek topic that developers talk a lot about during coding collaboration interactions. One of the first things that come up, is usually "What case do we use"? I was i...
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		
-		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#code style">Code Style</a><span class="sep">, </span>
-		
-		</span>
-	</small>
-	<small class="text-muted">
-		Oct 05, 2017
-	</small>
-</div>
-
-	<div class="col-md-3 pr-0 text-right">
-	<a href="/letter-cases-in-software-development-code-style/">
-	<img class="w-100" src="/assets/images/posts/text-cases.jpg" alt="Letter Cases in Software Development">
-	</a>
-	</div>
-
-</div>
-        
-        
-        
-        <div class="mt-5">
-         <!-- Pagination links -->
-                  
+          
         </div>
-        
     </div>
-    
-    <div class="col-md-4">
-        <div class="sticky-top sticky-top-offset">
-    <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>  
-    <ol class="list-featured">				
-           
-    </ol>
-</div>     
-    </div>
-    
 </div>
 
-
-
-</div>
     </main>
 
 

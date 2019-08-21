@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-21T05:08:38+00:00</updated><id>/feed.xml</id><title type="html">Darren Sim</title><subtitle>Tech Lead, Developer, Speaker &amp; Author in New Zealand</subtitle><entry><title type="html">Tips for Running a Code Kata (Developer Dojo) at the Workplace</title><link href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/" rel="alternate" type="text/html" title="Tips for Running a Code Kata (Developer Dojo) at the Workplace" /><published>2018-07-14T00:00:00+00:00</published><updated>2018-07-14T00:00:00+00:00</updated><id>/tips-for-running-a-code-kata-developer-dojo-at-the-workplace</id><content type="html" xml:base="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">&lt;h2 id=&quot;what-is-a-code-kata&quot;&gt;What is a Code Kata?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-21T05:13:33+00:00</updated><id>/feed.xml</id><title type="html">Darren Sim</title><subtitle>Tech Lead, Developer, Speaker &amp; Author in New Zealand</subtitle><entry><title type="html">Tips for Running a Code Kata (Developer Dojo) at the Workplace</title><link href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/" rel="alternate" type="text/html" title="Tips for Running a Code Kata (Developer Dojo) at the Workplace" /><published>2018-07-14T00:00:00+00:00</published><updated>2018-07-14T00:00:00+00:00</updated><id>/tips-for-running-a-code-kata-developer-dojo-at-the-workplace</id><content type="html" xml:base="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">&lt;h2 id=&quot;what-is-a-code-kata&quot;&gt;What is a Code Kata?&lt;/h2&gt;
 
 &lt;p&gt;A concept borrowed from the Japanese martial arts world, katas are exercises which help practitioners hone their skills through practice and repetition. Over the past decade, katas has been adopted as part of the wider Software Craftsmanship movement, seeing katas introduced as part of leading Software Development and Software Architecture courses around the world.
 Organisations and software teams that embrace this practice has increasingly prioritised time for software practitioners to work on katas together, at a regular cadence. This provides a safe space for teams to &lt;strong&gt;experiment new practices&lt;/strong&gt;, &lt;strong&gt;hone new skills&lt;/strong&gt;, &lt;strong&gt;challenge assumptions&lt;/strong&gt; and &lt;strong&gt;work with team members they do not usually interact with&lt;/strong&gt;.&lt;/p&gt;
@@ -244,7 +244,216 @@ One of the common misconceptions is that if you hide a feature behind a feature 
 If TDD is practiced in the team, it is always a good habit to practice red-green-refactor. When implementing feature toggles, it is always important that automated tests exercise flows with the switch turned on, and off, to avoid regressions. While this is not a silver bullet, it helps radiate obvious regressions. The added complexity in testing introduced by feature toggles warrants reviewing existing test strategies; constant and effective communication between between members of the development team is also important.
 
 
-&lt;pre&gt;This article was first published in the &lt;a href=&quot;https://web.archive.org/web/20180624072619/https://pragprog.com/news/node-js-8-the-right-way-practical-server-side-javascript-that-scales-in-print-january-pragpub&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Jan 2018 issue&lt;/a&gt; of &lt;a href=&quot;https://theprosegarden.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Pragmatic Publications Magazine&lt;/a&gt;.&lt;/pre&gt;</content><author><name>sal</name></author><summary type="html">As software professionals, success is measured by our ability to improve our users’ lives.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/feature-toggle.jpg" /></entry><entry><title type="html">Security Vulnerability and Browser Performance Impact of target=”_blank”</title><link href="/security-vulnerability-and-browser-performance-impact-of-target_blank/" rel="alternate" type="text/html" title="Security Vulnerability and Browser Performance Impact of target=&amp;#8221;_blank&amp;#8221;" /><published>2017-11-11T00:00:00+00:00</published><updated>2017-11-11T00:00:00+00:00</updated><id>/security-vulnerability-and-browser-performance-impact-of-target_blank</id><content type="html" xml:base="/security-vulnerability-and-browser-performance-impact-of-target_blank/">The anchor tag &lt;a href=&quot;https://www.w3.org/MarkUp/1995-archive/Elements/A.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; has been around in the &lt;/a&gt;&lt;a href=&quot;https://www.w3.org/MarkUp/1995-archive/Elements/A.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;HTML standards&lt;/a&gt; for over 20 years, and has been the defecto standard for implementing in-page navigations, as well as navigations beyond the page. This has changed in recent years, with the popularity of javascript and single-page applications (SPAs); where page navigations are handled within onClick events of page elements instead.
+&lt;pre&gt;This article was first published in the &lt;a href=&quot;https://web.archive.org/web/20180624072619/https://pragprog.com/news/node-js-8-the-right-way-practical-server-side-javascript-that-scales-in-print-january-pragpub&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Jan 2018 issue&lt;/a&gt; of &lt;a href=&quot;https://theprosegarden.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Pragmatic Publications Magazine&lt;/a&gt;.&lt;/pre&gt;</content><author><name>sal</name></author><summary type="html">As software professionals, success is measured by our ability to improve our users’ lives.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/feature-toggle.jpg" /></entry><entry><title type="html">Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)</title><link href="/enabling-detailed-monitoring-postgresql-aws-rds-amazon-web-services/" rel="alternate" type="text/html" title="Enabling Detailed Monitoring on PostgreSQL RDS running on Amazon Web Services (AWS)" /><published>2017-12-08T00:00:00+00:00</published><updated>2017-12-08T00:00:00+00:00</updated><id>/enabling-detailed-monitoring-postgresql-aws-rds-amazon-web-services</id><content type="html" xml:base="/enabling-detailed-monitoring-postgresql-aws-rds-amazon-web-services/">In micro-service implementations where servers are treated as disposable kettles rather than pets, the data-store (usually an RDS insurance on AWS) becomes ever more important; it's the single source of truth for the application.
+
+While this is no longer considered the best practice, the following architecture, was at one time one of the more popular patterns.
+
+&lt;img class=&quot;alignnone wp-image-107 size-large&quot; src=&quot;http://darrensim.io/wp-content/uploads/2017/10/AWS-Application-Architecture-1024x622.png&quot; alt=&quot;&quot; width=&quot;1024&quot; height=&quot;622&quot; /&gt;
+
+Unfortunately, as teams do not usually give a lot of love to their infrastructure post initial setup, this setup is still pretty common.
+
+&lt;h3&gt;Importance of Monitoring the RDS&lt;/h3&gt;
+
+Given that a failure of the RDS is the most costly failure in such a setup, system operators (in teams that subscribe to the &quot;you build it, you run it&quot; mindset, this happens to be the Dev team) need to be preempted way ahead of time if there's a potential bottleneck forming, or a resource spike (e.g. CPU) that has the potential to bring the RDS to a crawl, rendering it unavailable.
+
+In the event that a potential bottleneck or resource spike do occur, operators need to be able to have the right information on hand to quickly diagnose the issue and shutdown a bad node making calls to the RDS.
+
+Out of the box, AWS provides the following metrics that are useful for general system health monitoring; enabling enhanced monitoring will offer operators the ability to monitor heuristically and perform diagnostics.
+
+&lt;h3&gt;RDS Basic Monitoring Capabilities&lt;/h3&gt;
+
+Basic monitoring comes by default with all RDS installations on AWS; the RDS sends metrics to CloudWatch for each active database instance every minute.
+
+&lt;strong&gt;Metrics Available&lt;/strong&gt;
+There are 24 metrics that are tracked in the Amazon RDS Metrics. These include:
+
+[table id=6 /]
+
+Read more on &lt;a href=&quot;http://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/rds-metricscollected.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/rds-metricscollected.html&lt;/a&gt;.
+
+Of these, the FOUR metrics which I strongly recommend wiring up CloudWatch alarms to are &lt;em&gt;&lt;strong&gt;CPUUtilization&lt;/strong&gt;&lt;/em&gt;, &lt;em&gt;&lt;strong&gt;DatabaseConnections&lt;/strong&gt;&lt;/em&gt;, &lt;em&gt;&lt;strong&gt;FreeableMemory&lt;/strong&gt;&lt;/em&gt;, and &lt;em&gt;&lt;strong&gt;FreeStorageSpace&lt;/strong&gt;&lt;/em&gt;.
+
+&lt;h3&gt;Case for Detailed Monitoring&lt;/h3&gt;
+
+One of the key difference between default CloudWatch monitoring, and Enhanced monitoring for RDS is, CloudWatch gathers metrics about CPU utilization &lt;strong&gt;&lt;em&gt;from the hypervisor&lt;/em&gt;&lt;/strong&gt; for a DB instance, while Enhanced Monitoring gathers its metrics &lt;strong&gt;&lt;em&gt;from an agent on the instance&lt;/em&gt;&lt;/strong&gt;.
+
+On top of receiving faster feedback &lt;em&gt;(1 second granularity)&lt;/em&gt; through having an agent on the instance, having an agent on the instance also brings about enhanced monitoring, that allows operators to see how different processes or threads on a DB instance use the CPU.
+
+This is especially useful when operators want to find out which clients (e.g. EC2) are accessing the RDS, and how much CPU and memory utilization each of these clients is generating on the RDS.
+
+&lt;strong&gt;Example Log Entry&lt;/strong&gt;
+
+&lt;pre class=&quot;lang:default decode:true&quot; title=&quot;Example CloudWatch JSON Log&quot;&gt;{
+    &quot;engine&quot;: &quot;POSTGRES&quot;,
+    &quot;instanceID&quot;: &quot;INSTANCE_ID&quot;,
+    &quot;instanceResourceID&quot;: &quot;db-RESOURCE_ID&quot;,
+    &quot;timestamp&quot;: &quot;2017-10-30T11:17:55Z&quot;,
+    &quot;version&quot;: 1,
+    &quot;uptime&quot;: &quot;1 days, 20:17:10&quot;,
+    &quot;numVCPUs&quot;: 8,
+    &quot;cpuUtilization&quot;: {
+        &quot;guest&quot;: 0,
+        &quot;irq&quot;: 0.01,
+        &quot;system&quot;: 0.26,
+        &quot;wait&quot;: 0.26,
+        &quot;idle&quot;: 94.31,
+        &quot;user&quot;: 0.28,
+        &quot;total&quot;: 5.68,
+        &quot;steal&quot;: 0.01,
+        &quot;nice&quot;: 4.86
+    },
+    &quot;loadAverageMinute&quot;: {
+        &quot;fifteen&quot;: 0.51,
+        &quot;five&quot;: 0.57,
+        &quot;one&quot;: 0.62
+    },
+    &quot;memory&quot;: {
+        &quot;writeback&quot;: 288,
+        &quot;hugePagesFree&quot;: 0,
+        &quot;hugePagesRsvd&quot;: 0,
+        &quot;hugePagesSurp&quot;: 0,
+        &quot;cached&quot;: 4805564,
+        &quot;hugePagesSize&quot;: 2048,
+        &quot;free&quot;: 26788288,
+        &quot;hugePagesTotal&quot;: 0,
+        &quot;inactive&quot;: 549000,
+        &quot;pageTables&quot;: 30344,
+        &quot;dirty&quot;: 100,
+        &quot;mapped&quot;: 854956,
+        &quot;active&quot;: 5059444,
+        &quot;total&quot;: 32952096,
+        &quot;slab&quot;: 249920,
+        &quot;buffers&quot;: 303744
+    },
+    &quot;tasks&quot;: {
+        &quot;sleeping&quot;: 239,
+        &quot;zombie&quot;: 0,
+        &quot;running&quot;: 2,
+        &quot;stopped&quot;: 0,
+        &quot;total&quot;: 241,
+        &quot;blocked&quot;: 0
+    },
+    &quot;swap&quot;: {
+        &quot;cached&quot;: 0,
+        &quot;total&quot;: 16383996,
+        &quot;free&quot;: 16383996
+    },
+    &quot;network&quot;: [
+        {
+            &quot;interface&quot;: &quot;eth0&quot;,
+            &quot;rx&quot;: 150548.8,
+            &quot;tx&quot;: 376372.3
+        }
+    ],
+    &quot;diskIO&quot;: [
+        {
+            &quot;writeKbPS&quot;: 89.6,
+            &quot;readIOsPS&quot;: 0,
+            &quot;await&quot;: 2.1,
+            &quot;readKbPS&quot;: 0,
+            &quot;rrqmPS&quot;: 0,
+            &quot;util&quot;: 1.96,
+            &quot;avgQueueLen&quot;: 0.26,
+            &quot;tps&quot;: 12.6,
+            &quot;readKb&quot;: 0,
+            &quot;device&quot;: &quot;rdsdev&quot;,
+            &quot;writeKb&quot;: 896,
+            &quot;avgReqSz&quot;: 7.11,
+            &quot;wrqmPS&quot;: 0,
+            &quot;writeIOsPS&quot;: 12.6
+        }
+    ],
+    &quot;fileSys&quot;: [
+        {
+            &quot;used&quot;: 1530088,
+            &quot;name&quot;: &quot;rdsfilesys&quot;,
+            &quot;usedFiles&quot;: 1788,
+            &quot;usedFilePercent&quot;: 0.03,
+            &quot;maxFiles&quot;: 6553600,
+            &quot;mountPoint&quot;: &quot;/rdsdbdata&quot;,
+            &quot;total&quot;: 103053476,
+            &quot;usedPercent&quot;: 1.48
+        }
+    ],
+    &quot;processList&quot;: [
+        {
+            &quot;vss&quot;: 1234567,
+            &quot;name&quot;: &quot;postgres: user_name service_running 127.0.0.1 idle&quot;,
+            &quot;tgid&quot;: 4322,
+            &quot;vmlimit&quot;: 21222222,
+            &quot;parentID&quot;: 1234,
+            &quot;memoryUsedPc&quot;: 0.69,
+            &quot;cpuUsedPc&quot;: 0.09,
+            &quot;id&quot;: 4321,
+            &quot;rss&quot;: 226424
+        }
+    ]
+}&lt;/pre&gt;
+
+Details on metrics available can be found on &lt;a href=&quot;http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html?shortFooter=true#USER_Monitoring.OS.CloudWatchLogs&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html?shortFooter=true#USER_Monitoring.OS.CloudWatchLogs&lt;/a&gt;.
+
+As of 2017, detailed monitoring is available for all DB instance classes (except for &lt;code&gt;db.t1.micro&lt;/code&gt; and &lt;code&gt;db.m1.small&lt;/code&gt;), for the following database engines:
+
+&lt;ul&gt;
+    &lt;li&gt;Amazon Aurora&lt;/li&gt;
+    &lt;li&gt;MariaDB&lt;/li&gt;
+    &lt;li&gt;Microsoft SQL Server&lt;/li&gt;
+    &lt;li&gt;MySQL version 5.5 or later&lt;/li&gt;
+    &lt;li&gt;Oracle&lt;/li&gt;
+    &lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Enabling Enhanced Monitoring on AWS RDS&lt;/h3&gt;
+
+Enabling enhanced monitoring on an AWS RDS instance is really easy. This can be done by toggling the &quot;Enable Enhanced Monitoring&quot; setting on the AWS Management Console to &quot;Yes&quot;.
+
+To do this:
+
+&lt;ol&gt;
+    &lt;li&gt;Login to the AWS Management Console&lt;/li&gt;
+    &lt;li&gt;Select RDS&lt;/li&gt;
+    &lt;li&gt;Click on DB Instances&lt;/li&gt;
+    &lt;li&gt;Select the specific instance&lt;/li&gt;
+    &lt;li&gt;Click on Instance Actions&lt;/li&gt;
+    &lt;li&gt;Select Modify&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;img class=&quot;alignnone size-full wp-image-105&quot; src=&quot;http://darrensim.io/wp-content/uploads/2017/10/RDS-Enhanced-Monitoring-Configuration.png&quot; alt=&quot;RDS Enhanced Monitoring Configuration on AWS Management Console&quot; width=&quot;540&quot; height=&quot;146&quot; /&gt;
+
+Within the configuration panel, you will also be able to 1) &lt;em&gt;&lt;strong&gt;enable enhanced monitoring&lt;/strong&gt;&lt;/em&gt;, 2) &lt;em&gt;&lt;strong&gt;select monitoring role&lt;/strong&gt;&lt;/em&gt;, and 3) &lt;em&gt;&lt;strong&gt;select the granularity&lt;/strong&gt;&lt;/em&gt; of the monitoring (in units of 1, 5, 10, 15, 30, 60 seconds).
+
+&lt;strong&gt;Is Maintenance Window Required?&lt;/strong&gt;
+
+As this does not require a RDS reboot, the Maintenance Window is not required.
+
+&lt;h3&gt;Cost Impact&lt;/h3&gt;
+
+The cost of enabling enhanced monitoring depends on the amount of logs that are written to CloudWatch. The general rule of thumb is the greater the granularity, the more the logs generated, which in turn, results in an increased cost.
+
+AWS CloudWatch offers 5 GB a month for free; there after it is chargeable. Costing structure of AWS CloudWatch can be found on &lt;a href=&quot;https://aws.amazon.com/cloudwatch/pricing/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://aws.amazon.com/cloudwatch/pricing/&lt;/a&gt;. The &lt;a href=&quot;https://calculator.s3.amazonaws.com/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AWS cost calculator&lt;/a&gt; is another useful tool for cost estimations on AWS in general.
+
+&lt;h3&gt;Accessing Logs&lt;/h3&gt;
+
+Detailed logs generated from enhanced monitoring are stored as JSON format in CloudWatch, accessible via &lt;code&gt;CloudWatch &amp;gt; Log Groups &amp;gt; RDSOSMetrics &amp;gt; [Resource ID]&lt;/code&gt;.
+
+&lt;h3&gt;Useful PostgreSQL Queries&lt;/h3&gt;
+
+&lt;strong&gt;Total connections made to the PostgreSQL instance&lt;/strong&gt;
+
+&lt;pre class=&quot;lang:pgsql decode:true&quot; title=&quot;Total Connection made to the instances.&quot;&gt;SELECT client_addr, application_name, usename, datname, Count(1)
+FROM   pg_stat_activity
+GROUP  BY 1, 2, 3, 4
+ORDER  BY 5 DESC;&lt;/pre&gt;
+
+&lt;strong&gt;Only active connections on the PostgreSQL Instance&lt;/strong&gt;
+
+&lt;pre class=&quot;lang:pgsql decode:true &quot; title=&quot;Only the active connection&quot;&gt;SELECT client_addr, application_name, usename, datname, Count(1)
+FROM   pg_stat_activity
+WHERE  state &amp;lt;&amp;gt; 'idle'
+GROUP  BY 1, 2, 3, 4
+ORDER  BY 5 DESC;&lt;/pre&gt;
+
+&amp;nbsp;</content><author><name>sal</name></author><summary type="html">In micro-service implementations where servers are treated as disposable kettles rather than pets, the data-store (usually an RDS insurance on AWS) becomes ever more important; it's the single source of truth for the application.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/aws-rds-postresql.png" /></entry><entry><title type="html">Security Vulnerability and Browser Performance Impact of target=”_blank”</title><link href="/security-vulnerability-and-browser-performance-impact-of-target_blank/" rel="alternate" type="text/html" title="Security Vulnerability and Browser Performance Impact of target=&amp;#8221;_blank&amp;#8221;" /><published>2017-11-11T00:00:00+00:00</published><updated>2017-11-11T00:00:00+00:00</updated><id>/security-vulnerability-and-browser-performance-impact-of-target_blank</id><content type="html" xml:base="/security-vulnerability-and-browser-performance-impact-of-target_blank/">The anchor tag &lt;a href=&quot;https://www.w3.org/MarkUp/1995-archive/Elements/A.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; has been around in the &lt;/a&gt;&lt;a href=&quot;https://www.w3.org/MarkUp/1995-archive/Elements/A.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;HTML standards&lt;/a&gt; for over 20 years, and has been the defecto standard for implementing in-page navigations, as well as navigations beyond the page. This has changed in recent years, with the popularity of javascript and single-page applications (SPAs); where page navigations are handled within onClick events of page elements instead.
 
 Nonetheless, many of the concepts remain the same, and are handled by the browsers in almost the same way. The following code will give you the same behavior on &lt;a href=&quot;https://www.techopedia.com/definition/31094/evergreen-browser&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;evergreen browsers&lt;/a&gt;.
 
