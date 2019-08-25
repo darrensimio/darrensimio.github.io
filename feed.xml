@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-21T20:02:23+00:00</updated><id>/feed.xml</id><title type="html">Darren Sim</title><subtitle>Tech Lead, Developer, Speaker &amp; Author in New Zealand</subtitle><entry><title type="html">Tips for Running a Code Kata (Developer Dojo) at the Workplace</title><link href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/" rel="alternate" type="text/html" title="Tips for Running a Code Kata (Developer Dojo) at the Workplace" /><published>2018-07-14T00:00:00+00:00</published><updated>2018-07-14T00:00:00+00:00</updated><id>/tips-for-running-a-code-kata-developer-dojo-at-the-workplace</id><content type="html" xml:base="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">&lt;p&gt;A concept borrowed from the Japanese martial arts world, katas are exercises which help practitioners hone their skills through practice and repetition. Over the past decade, katas has been adopted as part of the wider Software Craftsmanship movement, seeing katas introduced as part of leading Software Development and Software Architecture courses around the world.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-08-25T18:00:32+00:00</updated><id>/feed.xml</id><title type="html">Darren Sim</title><subtitle>Tech Lead, Developer, Speaker &amp; Author in New Zealand</subtitle><entry><title type="html">Notes on Original Thinkers</title><link href="/notes-on-original-thinkers/" rel="alternate" type="text/html" title="Notes on Original Thinkers" /><published>2018-08-26T00:00:00+00:00</published><updated>2018-08-26T00:00:00+00:00</updated><id>/notes-on-original-thinkers</id><content type="html" xml:base="/notes-on-original-thinkers/">&lt;p&gt;These are notes which I’ve taken from the TED Talk &lt;a href=&quot;https://www.youtube.com/watch?v=fxbCHn6gE3U&quot;&gt;&lt;strong&gt;The surprising habits of original thinkers&lt;/strong&gt; by Adam Grant&lt;/a&gt;. This talk provides insights on how to be an original / creative / innovative thinker.&lt;/p&gt;
+
+&lt;h2 id=&quot;who-are-the-originals&quot;&gt;Who are the Originals&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Originals are non-conformist&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;People who not only have new ideas, but also take action and champion them&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;People who stand-up and speak-up&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;People who drive creativity and change in this world&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;characteristics-of-originals&quot;&gt;Characteristics of Originals&lt;/h2&gt;
+
+&lt;h3 id=&quot;originals-are-late-to-the-party&quot;&gt;Originals are late to the party&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Procrastinators are rated more creative than pre-crastinators&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Procrastination give you time to think about original ideas&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Procrastination is only good when you have started first, then procrastinate, and and take time to think deeply about the topic&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Failure Rates for First Movers vs Improvers&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/the-surprising-habits-of-original-thinkers-first-movers.png&quot; alt=&quot;Failure Rates for First Movers vs Improvers&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;originals-feel-doubt-and-fear&quot;&gt;Originals feel doubt and fear&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/the-surprising-habits-of-original-thinkers-creative-process.png&quot; alt=&quot;Creative process for most people&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;There are two types of doubt, self doubt (paralyzing) and idea doubt (energizing)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Key to being original is to avoid step 3 to step 4. Instead of saying “I’m crap”, you just say “all the ideas are crap” till you get the idea you are satisfied with&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Research shows that users of Firefox &amp;amp; Chrome are more likely to be successful; such users doubt the default and look for better options&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Original feels fear; but they are even more afraid to not try&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You are not going to be judged on your bad ideas&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If we want to be more original, we have to try more ideas. You have to have a lot of bad ideas in order to get a few good ones.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>sal</name></author><summary type="html">These are notes which I’ve taken from the TED Talk The surprising habits of original thinkers by Adam Grant. This talk provides insights on how to be an original / creative / innovative thinker.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/the-surprising-habits-of-original-thinkers-graph.png" /></entry><entry><title type="html">Tips for Running a Code Kata (Developer Dojo) at the Workplace</title><link href="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/" rel="alternate" type="text/html" title="Tips for Running a Code Kata (Developer Dojo) at the Workplace" /><published>2018-07-14T00:00:00+00:00</published><updated>2018-07-14T00:00:00+00:00</updated><id>/tips-for-running-a-code-kata-developer-dojo-at-the-workplace</id><content type="html" xml:base="/tips-for-running-a-code-kata-developer-dojo-at-the-workplace/">&lt;p&gt;A concept borrowed from the Japanese martial arts world, katas are exercises which help practitioners hone their skills through practice and repetition. Over the past decade, katas has been adopted as part of the wider Software Craftsmanship movement, seeing katas introduced as part of leading Software Development and Software Architecture courses around the world.
 Organisations and software teams that embrace this practice has increasingly prioritised time for software practitioners to work on katas together, at a regular cadence. This provides a safe space for teams to &lt;strong&gt;experiment new practices&lt;/strong&gt;, &lt;strong&gt;hone new skills&lt;/strong&gt;, &lt;strong&gt;challenge assumptions&lt;/strong&gt; and &lt;strong&gt;work with team members they do not usually interact with&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-happens-during-a-code-kata-session&quot;&gt;What happens during a Code Kata Session&lt;/h2&gt;
