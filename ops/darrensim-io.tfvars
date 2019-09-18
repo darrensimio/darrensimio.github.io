@@ -1,0 +1,5 @@
+aws_region = "us-east-1"
+domain_name = "darrensim.io"
+route_53_name = "darrensim.io"
+route_53_zone_id = "ZIPYQON8CXFAR"
+cloudfront_cert_acm_arn = "arn:aws:acm:us-east-1:881186900859:certificate/2b8094c9-3186-4b27-ab11-3f9c84648b7e"
