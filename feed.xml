@@ -1,4 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-09-19T19:22:03+00:00</updated><id>/feed.xml</id><title type="html">Darren Sim</title><subtitle>Tech Lead, Developer, Speaker &amp; Author in New Zealand</subtitle><entry><title type="html">Notes on Original Thinkers</title><link href="/notes-on-original-thinkers/" rel="alternate" type="text/html" title="Notes on Original Thinkers" /><published>2019-08-26T00:00:00+00:00</published><updated>2019-08-26T00:00:00+00:00</updated><id>/notes-on-original-thinkers</id><content type="html" xml:base="/notes-on-original-thinkers/">&lt;p&gt;These are notes which I’ve taken from the TED Talk &lt;a href=&quot;https://www.youtube.com/watch?v=fxbCHn6gE3U&quot;&gt;&lt;strong&gt;The surprising habits of original thinkers&lt;/strong&gt; by Adam Grant&lt;/a&gt;. This talk provides insights on how to be an original / creative / innovative thinker.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-09-19T19:25:00+00:00</updated><id>/feed.xml</id><title type="html">Darren Sim</title><subtitle>Tech Lead, Developer, Speaker &amp; Author in New Zealand</subtitle><entry><title type="html">Community Driven Organization Culture &amp;amp; Capability Building</title><link href="/community-driven-organizational-culture-capability-building/" rel="alternate" type="text/html" title="Community Driven Organization Culture &amp; Capability Building" /><published>2019-09-19T00:00:00+00:00</published><updated>2019-09-19T00:00:00+00:00</updated><id>/community-driven-organizational-culture-capability-building</id><content type="html" xml:base="/community-driven-organizational-culture-capability-building/">&lt;p&gt;In this knowledge driven &amp;amp; innovation-led economy, effective &lt;strong&gt;talent attraction, acquisition &amp;amp; retention&lt;/strong&gt; strategies become a performance defining capability.&lt;/p&gt;
+
+&lt;p&gt;As more organizations embrace remote working, top talents who have conventionally been location-bound are now presented with a myriad of new opportunities.&lt;/p&gt;
+
+&lt;p&gt;Providing great hardware (E.g. Office setup &amp;amp; tools for the trade) forms only half the equation. Leading organizations now compete on providing the best “&lt;strong&gt;heart-ware&lt;/strong&gt;” in a bid to attract top talents (who are mainly purpose driven).&lt;/p&gt;
+
+&lt;p&gt;Having had the privilege of working with several thought leaders over the years, following is a list of &lt;strong&gt;heartware optimized initiatives&lt;/strong&gt; that has inspired my current thinkings:&lt;/p&gt;
+
+&lt;h2 id=&quot;wyn-neighborhood-new-zealand&quot;&gt;Wyn Neighborhood (New Zealand)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An alliance comprising of non-competing organization around the Wynyard neighborhood&lt;/li&gt;
+  &lt;li&gt;Official MOU and NDA signed amongst partners&lt;/li&gt;
+  &lt;li&gt;Includes Air New Zealand, ASB, Datacom, IAG, and Skycity.&lt;/li&gt;
+  &lt;li&gt;Representatives from each organization meets at least once a quarter to share ideas&lt;/li&gt;
+  &lt;li&gt;Partners meet more frequently amongst themselves where areas of interest aligns&lt;/li&gt;
+  &lt;li&gt;We invite each other to brown-bags we organize at each of our organizations where relevant&lt;/li&gt;
+  &lt;li&gt;Slack (instant messaging) group created where partners can engage with more casually&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;culture-day-australia--new-zealand&quot;&gt;Culture Day (Australia &amp;amp; New Zealand)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Half day workshop held every quarter (sometimes more frequently based on demand) at every locality of the company&lt;/li&gt;
+  &lt;li&gt;CEO takes a hands-on approach and conducts parts of the half-day session along side senior-leaders&lt;/li&gt;
+  &lt;li&gt;Topics covered includes the company values, mission, ways of working and what it means&lt;/li&gt;
+  &lt;li&gt;CEO takes this opportunity to get to know new comers and also give new comers an opportunity to get up close with him&lt;/li&gt;
+  &lt;li&gt;Mandatory for all new hires; people leaders are held accountable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;overseas-community-service-project-for-victims-of-a-typhoon-asia&quot;&gt;Overseas Community Service Project for Victims of a Typhoon (Asia)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A group of university students (from various majors) contributed to the rebuilding of a NGO that was adversely affected by the Typhoon with their tertiary skills&lt;/li&gt;
+  &lt;li&gt;Cross disciplinary team spent two weeks on location at the NGO&lt;/li&gt;
+  &lt;li&gt;Delivered a branding pack, and website for the NGO&lt;/li&gt;
+  &lt;li&gt;Project with featured on local press; increasing awareness to the NGO and their cause&lt;/li&gt;
+  &lt;li&gt;Project caught the attention of the Chief Procecutor’s Office; Chief Procecutor hosted a dinner for NGO Staff &amp;amp; Volunteers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;developher-program-australia&quot;&gt;DevelopHer Program (Australia)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An Australian-based initiative led by People Team in partnership with Engineering Leaders&lt;/li&gt;
+  &lt;li&gt;Program specifically designed to help women to make a career switch to tech&lt;/li&gt;
+  &lt;li&gt;Successful applicants are given fixed-term contracts (salary will be comparable to a grad)&lt;/li&gt;
+  &lt;li&gt;Successful applicants paired with a senior engineer who is responsible for mentoring the individual&lt;/li&gt;
+  &lt;li&gt;Successful applicants will work in the same team, alongside their mentors on real customer products&lt;/li&gt;
+  &lt;li&gt;Several applicants have progressed to full-stack engineering roles at the company&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;graduate-program-australia--new-zealand&quot;&gt;Graduate Program (Australia &amp;amp; New Zealand)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Designed for fresh graduates with a computer science or information systems degree&lt;/li&gt;
+  &lt;li&gt;A 12 month program, after which, graduates as promoted to associate software developers (1 career level below intermediate software developer)&lt;/li&gt;
+  &lt;li&gt;Each graduate assigned a pair of mentors (to ensure continuity in the event that one mentor transitions to a different organization)&lt;/li&gt;
+  &lt;li&gt;Grads spend first 3-6 months learning software engineering fundamentals; they do not do any product work during this time&lt;/li&gt;
+  &lt;li&gt;Grads will join teams to work on real production work once their mentors feel that they are ready&lt;/li&gt;
+  &lt;li&gt;Grads will rotate into at least 2 teams; spending 3 months with each team&lt;/li&gt;
+  &lt;li&gt;At the end of their first year, grads will decide which teams they want to be part of permanently; team will have to give their blessings before a grad can join them permanently&lt;/li&gt;
+  &lt;li&gt;Grads are looked after by a dedicated People Consultant and Engineering Protégé Manager (similar to Engineering Manager role)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ida-elite-mentorship-program-asia&quot;&gt;IDA Elite Mentorship Program (Asia)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An initiative by the government ministry that looks after the tech sector in Singapore&lt;/li&gt;
+  &lt;li&gt;Leading tech companies are tapped to volunteer exec time to mentor faculty- nominated year 2 to year 3 students from top local universities&lt;/li&gt;
+  &lt;li&gt;Mentors are Engineering Managers or Heads of Delivery in their respective organizations&lt;/li&gt;
+  &lt;li&gt;Mentors offers mentees with career mentorship with the option to offer their mentees an internship at their respective organizations; mentees do not have to take up internships at their mentor’s organizations&lt;/li&gt;
+  &lt;li&gt;Mentorship relationship generally last at least 12 months; some develop into longer lasting mentoring relationships&lt;/li&gt;
+  &lt;li&gt;Several mentees are currently serving in Engineering Manager / Software Architecture roles in the organizations that they started their careers in, where their mentors have transitioned into more senior roles&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;microsoft-imagine-cup-global&quot;&gt;Microsoft Imagine Cup (Global)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Global annual software development competition for tertiary students&lt;/li&gt;
+  &lt;li&gt;Students compete on a national level, and national winners compete for the ultimate prize on the global stage&lt;/li&gt;
+  &lt;li&gt;Students work in teams of up to 4 to develop software solutions using Microsoft technology, around a specific theme&lt;/li&gt;
+  &lt;li&gt;National finalists are assigned a technical and product management mentor&lt;/li&gt;
+  &lt;li&gt;Some of the ideas generated evolve into real product features at Microsoft; some are spun off as startups&lt;/li&gt;
+  &lt;li&gt;Several imagine cup finalists &amp;amp; winners have been offered jobs at Microsoft&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hilton-blue-energy-program-new-zealand&quot;&gt;Hilton Blue Energy Program (New Zealand)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Themed around various areas of interest (E.g. Sustainability, Guest Satisfaction &amp;amp; Community)&lt;/li&gt;
+  &lt;li&gt;GM, Head of People &amp;amp; Culture and Department Heads attend sessions as sponsors&lt;/li&gt;
+  &lt;li&gt;Chairperson-ship is rotated amongst the group&lt;/li&gt;
+  &lt;li&gt;Group is mainly made up non-managers; and new comers to the organization&lt;/li&gt;
+  &lt;li&gt;Each department sends only 1 representative&lt;/li&gt;
+  &lt;li&gt;Gives team members a voice to make a difference to the organization; organizational challenges are also brought up to this committee to crowdsource for ideas&lt;/li&gt;
+  &lt;li&gt;Group comes together on a monthly basis for 1 hour&lt;/li&gt;
+  &lt;li&gt;Casual team members are welcomed, and paid when they attend these sessions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This list will be continuously updated where sensible. If you come across any personal experiences that have been inspiring for you, I’d like to invite you to share them in the comments section below.&lt;/p&gt;</content><author><name>sal</name></author><summary type="html">In this knowledge driven &amp;amp; innovation-led economy, effective talent attraction, acquisition &amp;amp; retention strategies become a performance defining capability.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/posts/community-driven-org-culture-capability-building.jpg" /></entry><entry><title type="html">Notes on Original Thinkers</title><link href="/notes-on-original-thinkers/" rel="alternate" type="text/html" title="Notes on Original Thinkers" /><published>2019-08-26T00:00:00+00:00</published><updated>2019-08-26T00:00:00+00:00</updated><id>/notes-on-original-thinkers</id><content type="html" xml:base="/notes-on-original-thinkers/">&lt;p&gt;These are notes which I’ve taken from the TED Talk &lt;a href=&quot;https://www.youtube.com/watch?v=fxbCHn6gE3U&quot;&gt;&lt;strong&gt;The surprising habits of original thinkers&lt;/strong&gt; by Adam Grant&lt;/a&gt;. This talk provides insights on how to be an original / creative / innovative thinker.&lt;/p&gt;
 
 &lt;h2 id=&quot;who-are-the-originals&quot;&gt;Who are the Originals&lt;/h2&gt;
 
