@@ -1,1 +1,1 @@
-bundle exec jekyll serve --livereload --watch --open-url
+jekyll serve --livereload --watch --open-url
