@@ -2,6 +2,12 @@
     "name": "Speaking Engagements",
     "data": [
         [
+            "Evolving your Legacy Stack to Unlock benefits of the Cloud & Beyond",
+            "Microservices,Containers And Serverless Day",
+            "Auckland, New Zealand",
+            "15.11.2019"
+        ], 
+        [
             "Microservices Delivery Patterns - Delivering Innovation and Experimentation at Scale",
             "121 Test Automation and DevOps Day",
             "Auckland, New Zealand",
